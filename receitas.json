@@ -1,0 +1,31 @@
+[
+ {
+  "id": "r1",
+  "titulo": "Lanche Natural de Frango",
+  "tempo": "15 min",
+  "porcoes": "20",
+  "calorias": "120 kcal",
+  "tipo": "Salgada",
+  "estilo": "Caseira",
+  "emoji": "🥪",
+  "ingredientes": [
+   "2 pacotes de pão de forma",
+   "2 cenouras grandes",
+   "meio pote grande de requeijão light",
+   "1kg de frango",
+   "1 pé de alface crespa",
+   "2 colheres de salsinha desidratada ou fresca",
+   "meia lata de milho",
+   "meio pote de palmito"
+  ],
+  "modo": [
+   "Rale as cenouras",
+   "Cozinhe o frango com sal e, depois de cozido, desfie",
+   "Em um recipiente, misture o frango desfiado, o requeijão light, a cenoura ralada, a salsa, o milho e o palmito até ficar bem misturado",
+   "Em uma forma ou recipiente de vidro retangular, coloque uma camada de pão, acrescente o recheio, por cima coloque o alface e depois outra camada de pão",
+   "Após montar todos os pães, se desejar, corte ao meio ou em 4 partes cada",
+   "Decore em volta da forma com o alface que sobrou"
+  ],
+  "criadoEm": 0
+ }
+]
