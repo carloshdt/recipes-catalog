@@ -218,8 +218,8 @@ const CATS={
   'Sopas':              {c:'#A3703F',g:['#F0C9A0','#C98E5E']},
   'Bolos':              {c:'#B14A6B',g:['#F0C2D4','#C77E9C']},
   'Tortas':             {c:'#8A6A3B',g:['#E8D2B0','#C0975B']},
-  'Doces e sobremesas': {c:'#8E5185',g:['#E8C0E0','#B57BA8']},
-  'Bebidas':            {c:'#3E7A8C',g:['#B8D8E0','#6FA8B8']}
+  'Doces':              {c:'#8E5185',g:['#E8C0E0','#B57BA8']},
+  'Sobremesas':         {c:'#6B5AA0',g:['#CFC6E8','#9A8CC9']}
 };
 const FIT={c:'#5E7C4E',bg:'rgba(94,124,78,.15)'};
 function grad(cat){const g=(CATS[cat]||CATS['Lanches']).g;return `linear-gradient(135deg,${g[0]} 0%,${g[1]} 100%)`;}
@@ -308,11 +308,11 @@ function render(){
 
 /* ---------------- Filtros ---------------- */
 function renderChips(){
-  el('chips').innerHTML=Object.keys(CATS).map(c=>{
+  el('chips').innerHTML=`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`
+  +Object.keys(CATS).map(c=>{
     const on=filters.categoria===c;
     return `<button class="chip" data-cat="${c}" data-on="${on?'1':''}" style="${on?`background:${CATS[c].c}`:''}">${c}</button>`;
-  }).join('')
-  +`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`;
+  }).join('');
 }
 el('chips').addEventListener('click',e=>{
   const b=e.target.closest('.chip');if(!b)return;
@@ -382,7 +382,7 @@ Regras:
 - "titulo": nome curto e claro do prato.
 - "ingredientes": um item por elemento, com quantidade quando houver.
 - "modo": passos objetivos, um passo por elemento, sem numeração no texto.
-- "categoria": exatamente uma de: "Lanches", "Salgados", "Massas", "Carnes", "Frangos", "Sopas", "Bolos", "Tortas", "Doces e sobremesas", "Bebidas".
+- "categoria": exatamente uma de: "Lanches", "Salgados", "Massas", "Carnes", "Frangos", "Sopas", "Bolos", "Tortas", "Doces", "Sobremesas".
 - "fit": true apenas se a receita for claramente leve/saudável (ingredientes light, assado em vez de frito, poucas calorias); senão false.
 - "emoji": um único emoji de comida que represente o prato.
 - "tempo": estimativa curta tipo "40 min" se der pra inferir, senão "".
