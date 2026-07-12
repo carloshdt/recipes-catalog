@@ -5,8 +5,8 @@
   "tempo": "15 min",
   "porcoes": "20",
   "calorias": "120 kcal",
-  "tipo": "Salgada",
-  "estilo": "Caseira",
+  "categoria": "Lanches",
+  "fit": true,
   "emoji": "🥪",
   "imagem": "imagens/lanche-natural-de-frango.jpg",
   "ingredientes": [
