@@ -60,6 +60,7 @@
   .rcard:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(53,42,32,.08),0 16px 34px rgba(53,42,32,.13)}
   .rcard-art{height:130px;display:flex;align-items:center;justify-content:center;position:relative;border-bottom:1px solid rgba(255,255,255,.4)}
   .rcard-art .emoji{font-size:56px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.18))}
+  .rcard-art img{width:100%;height:100%;object-fit:cover;display:block}
   .rcard-art .time{position:absolute;bottom:8px;right:8px;font-size:11px;font-weight:600;color:var(--ink);background:rgba(252,248,240,.9);padding:3px 8px;border-radius:999px}
   .rcard-body{padding:13px 14px 15px}
   .rcard-body h3{font-family:'Fraunces',serif;font-weight:600;font-size:17px;line-height:1.2;letter-spacing:-.01em}
@@ -120,6 +121,8 @@
   /* detalhe */
   .detail-hero{height:150px;display:flex;align-items:center;justify-content:center}
   .detail-hero .emoji{font-size:74px;filter:drop-shadow(0 4px 8px rgba(0,0,0,.2))}
+  .detail-hero img{width:100%;height:100%;object-fit:cover;display:block}
+  .detail-hero.has-img{height:220px}
   .detail-meta{padding:20px 22px 0}
   .detail-meta h2{font-family:'Fraunces',serif;font-weight:600;font-size:26px;letter-spacing:-.01em;line-height:1.15}
   .detail-meta .tags{display:flex;gap:7px;margin-top:11px;flex-wrap:wrap;align-items:center}
@@ -294,7 +297,7 @@ function render(){
   c.innerHTML=`<div class="grid">`+list.map(r=>`
     <div class="rcard" onclick="openDetail('${r.id}')">
       <div class="rcard-art" style="background:${gradients[r.tipo]||gradients.Salgada}">
-        <span class="emoji">${r.emoji||'🍽️'}</span>
+        ${r.imagem?`<img src="${esc(r.imagem)}" alt="${esc(r.titulo)}" loading="lazy">`:`<span class="emoji">${r.emoji||'🍽️'}</span>`}
         ${r.tempo||r.calorias?`<span class="time">${r.tempo?'⏱ '+esc(r.tempo):'🔥 '+esc(r.calorias)}</span>`:''}
       </div>
       <div class="rcard-body">
@@ -504,7 +507,7 @@ async function saveDraft(){
 function openDetail(id){
   const r=recipes.find(x=>x.id===id);if(!r)return;
   el('detailBody').innerHTML=`
-    <div class="detail-hero" style="background:${gradients[r.tipo]||gradients.Salgada}"><span class="emoji">${r.emoji||'🍽️'}</span></div>
+    <div class="detail-hero${r.imagem?' has-img':''}" style="background:${gradients[r.tipo]||gradients.Salgada}">${r.imagem?`<img src="${esc(r.imagem)}" alt="${esc(r.titulo)}">`:`<span class="emoji">${r.emoji||'🍽️'}</span>`}</div>
     <div class="detail-meta">
       <h2>${esc(r.titulo)}</h2>
       <div class="tags">
