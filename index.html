@@ -164,7 +164,10 @@
         <h1>Caderno de Receitas</h1>
         <p>As receitas que eu sei fazer — organizadas de um jeito fácil de bater o olho.</p>
       </div>
-      <div class="count-badge" id="countBadge">0 receitas</div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <div class="count-badge" id="countBadge">0 receitas</div>
+        <button class="count-badge" id="dlBtn" title="Baixa o HTML com as receitas embutidas pra publicar no GitHub Pages">⬇ Baixar HTML</button>
+      </div>
     </div>
   </div>
 
@@ -213,8 +216,11 @@
 
   <div class="toast" id="toast"></div>
 
+<script type="application/json" id="recipesData">
+[{"id":"r1","titulo":"Lanche Natural de Frango","tempo":"15 min","porcoes":"20","calorias":"120 kcal","tipo":"Salgada","estilo":"Caseira","emoji":"🥪","ingredientes":["2 pacotes de pão de forma","2 cenouras grandes","meio pote grande de requeijão light","1kg de frango","1 pé de alface crespa","2 colheres de salsinha desidratada ou fresca","meia lata de milho","meio pote de palmito"],"modo":["Rale as cenouras","Cozinhe o frango com sal e, depois de cozido, desfie","Em um recipiente, misture o frango desfiado, o requeijão light, a cenoura ralada, a salsa, o milho e o palmito até ficar bem misturado","Em uma forma ou recipiente de vidro retangular, coloque uma camada de pão, acrescente o recheio, por cima coloque o alface e depois outra camada de pão","Após montar todos os pães, se desejar, corte ao meio ou em 4 partes cada","Decore em volta da forma com o alface que sobrou"],"criadoEm":0}]
+</script>
 <script>
-const KEY='receitas-v1';
+const PRISTINE='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
 let recipes=[];
 let filters={tipo:null,estilo:null};
 let search='';
@@ -226,51 +232,29 @@ const gradients={
   Doce:'linear-gradient(135deg,#F0C2D4 0%,#C77E9C 100%)'
 };
 
-/* ---------------- Storage ---------------- */
+/* ---------------- Storage: receitas embutidas no próprio HTML ---------------- */
 async function loadRecipes(){
-  const seed=[{
-    id:'r'+Date.now(),
-    titulo:'Lanche Natural de Frango',
-    tempo:'15 min',
-    porcoes:'20',
-    calorias:'120 kcal',
-    tipo:'Salgada',
-    estilo:'Caseira',
-    emoji:'🥪',
-    ingredientes:[
-      '2 pacotes de pão de forma',
-      '2 cenouras grandes',
-      'meio pote grande de requeijão light',
-      '1kg de frango',
-      '1 pé de alface crespa',
-      '2 colheres de salsinha desidratada ou fresca',
-      'meia lata de milho',
-      'meio pote de palmito'
-    ],
-    modo:[
-      'Rale as cenouras',
-      'Cozinhe o frango com sal e, depois de cozido, desfie',
-      'Em um recipiente, misture o frango desfiado, o requeijão light, a cenoura ralada, a salsa, o milho e o palmito até ficar bem misturado',
-      'Em uma forma ou recipiente de vidro retangular, coloque uma camada de pão, acrescente o recheio, por cima coloque o alface e depois outra camada de pão',
-      'Após montar todos os pães, se desejar, corte ao meio ou em 4 partes cada',
-      'Decore em volta da forma com o alface que sobrou'
-    ],
-    criadoEm:Date.now()
-  }];
-  try{
-    const r=await window.storage.get(KEY);
-    recipes=r&&r.value?JSON.parse(r.value):[];
-    if(recipes.length===0){recipes=seed;await saveRecipes();}
-  }catch(e){
-    // chave ainda não existe (primeira vez) -> carrega receita de exemplo
-    recipes=seed;
-    await saveRecipes();
-  }
+  try{ recipes=JSON.parse(document.getElementById('recipesData').textContent)||[]; }
+  catch(e){ recipes=[]; }
 }
 async function saveRecipes(){
-  try{ await window.storage.set(KEY,JSON.stringify(recipes)); }
-  catch(e){ toast('Não consegui salvar agora. Tenta de novo.'); }
+  document.getElementById('recipesData').textContent=JSON.stringify(recipes);
+  toast('Salvo nesta aba — baixa o HTML e sobe no GitHub pra valer em todo lugar 📥');
 }
+function downloadHTML(){
+  const json=JSON.stringify(recipes,null,1).replace(/</g,'\\u003c');
+  const out=PRISTINE.replace(
+    /<script type="application\/json" id="recipesData">[\s\S]*?<\/script>/,
+    ()=>'<script type="application/json" id="recipesData">\n'+json+'\n<\/script>'
+  );
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([out],{type:'text/html'}));
+  a.download='index.html';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast('index.html baixado — troca no repositório e dá push');
+}
+document.getElementById('dlBtn').addEventListener('click',downloadHTML);
 
 /* ---------------- Helpers ---------------- */
 const el=(id)=>document.getElementById(id);
