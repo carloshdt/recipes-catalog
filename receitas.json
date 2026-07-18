@@ -1,5 +1,33 @@
 [
  {
+  "id": "r2",
+  "titulo": "Salada Colorida com Parmesão",
+  "tempo": "15 min",
+  "porcoes": "",
+  "calorias": "80 kcal",
+  "categoria": "Saladas",
+  "fit": true,
+  "emoji": "🥗",
+  "imagem": "imagens/salada-colorida-com-parmesao.jpg",
+  "ingredientes": [
+   "Repolho",
+   "Repolho roxo",
+   "Pepino",
+   "Alface",
+   "Tomate cereja",
+   "Cebola roxa",
+   "Queijo parmesão"
+  ],
+  "modo": [
+   "Lave e seque as folhas e legumes",
+   "Fatie fino o repolho, o repolho roxo e a cebola roxa",
+   "Corte o pepino em rodelas e os tomates cereja ao meio",
+   "Rasgue o alface e misture tudo em uma saladeira",
+   "Finalize com parmesão ralado por cima"
+  ],
+  "criadoEm": 1784380053825
+ },
+ {
   "id": "r1",
   "titulo": "Lanche Natural de Frango",
   "tempo": "15 min",
