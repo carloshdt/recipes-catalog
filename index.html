@@ -379,9 +379,7 @@ function render(){
       </div>
     </section>`;
 
-  const favoritas=list.filter(r=>favs.has(r.id));
   c.innerHTML=`<div class="shelves">`
-  +(favoritas.length?shelf('⭐ Favoritas','#CF4A2C',favoritas,'data-fav="1"'):'')
   +[...known,...extras].map(cat=>
     shelf(cat,(CATS[cat]||CATS['Lanches']).c,favFirst(list.filter(r=>r.categoria===cat)),`data-cat="${esc(cat)}"`)
   ).join('')+`</div>`;
@@ -436,8 +434,7 @@ el('content').addEventListener('click',e=>{
   }
   const see=e.target.closest('.shelf-see');
   if(see){
-    if(see.dataset.fav)filters.fav=true;
-    else filters.categoria=see.dataset.cat;
+    filters.categoria=see.dataset.cat;
     renderChips();render();
     window.scrollTo({top:0,behavior:'smooth'});
   }
