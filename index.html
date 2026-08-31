@@ -317,7 +317,7 @@ function render(){
 
 /* ---------------- Filtros ---------------- */
 function renderChips(){
-  const used=Object.keys(CATS).filter(c=>data.some(r=>r.categoria===c));
+  const used=Object.keys(CATS).filter(c=>recipes.some(r=>r.categoria===c));
   el('chips').innerHTML=`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`
   +used.map(c=>{
     const on=filters.categoria===c;
@@ -567,8 +567,8 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeOverlay('addOv
 /* ---------------- Boot ---------------- */
 (async()=>{
   el('content').innerHTML='<div class="loading-page">Abrindo seu caderno…</div>';
-  renderChips();
   await loadRecipes();
+  renderChips();
   render();
 })();
 window.openAdd=openAdd;window.openDetail=openDetail;window.editRecipe=editRecipe;window.delRecipe=delRecipe;
