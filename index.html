@@ -63,6 +63,26 @@
   .rcard-tags{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}
   .tag{font-size:11px;font-weight:600;padding:3px 9px;border-radius:999px}
 
+  /* ---------- Prateleiras por categoria ---------- */
+  .shelves{padding:10px 0 26px}
+  .shelf{margin-top:24px}
+  .shelf-head{max-width:1080px;margin:0 auto;padding:0 20px 4px;display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+  .shelf-head h2{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
+  .shelf-dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .shelf-count{font-size:12.5px;font-family:'Inter',sans-serif;font-weight:400;color:var(--ink-soft);white-space:nowrap}
+  .shelf-see{font-size:13px;font-weight:600;color:var(--ink-soft);white-space:nowrap;border-bottom:1px solid transparent}
+  .shelf-see:hover{color:var(--ink);border-bottom-color:var(--ink)}
+  .rail-wrap{position:relative;max-width:1080px;margin:0 auto}
+  .rail{display:flex;gap:18px;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x proximity;padding:14px 20px 16px;scrollbar-width:none}
+  .rail::-webkit-scrollbar{display:none}
+  .rail .rcard{flex:0 0 230px;scroll-snap-align:start}
+  .rail-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:38px;height:38px;border-radius:50%;background:rgba(252,248,240,.95);border:1px solid var(--line);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;font-size:20px;line-height:1;color:var(--ink);opacity:0;transition:opacity .15s}
+  .rail-wrap:hover .rail-nav{opacity:1}
+  .rail-nav:disabled{opacity:0!important;pointer-events:none}
+  .rail-nav[data-dir="-1"]{left:4px}
+  .rail-nav[data-dir="1"]{right:4px}
+  @media (pointer:coarse){.rail-nav{display:none}}
+
   /* ---------- Estado vazio ---------- */
   .empty{max-width:520px;margin:60px auto;text-align:center;padding:0 24px}
   .empty .big{font-size:52px;margin-bottom:8px}
@@ -302,7 +322,35 @@ function render(){
     return;
   }
 
-  c.innerHTML=`<div class="grid">`+list.map(r=>`
+  // Com filtro, busca ou categoria escolhida: grade simples com o resultado.
+  if(filters.categoria||filters.fit||search){
+    c.innerHTML=`<div class="grid">`+list.map(cardHTML).join('')+`</div>`;
+    return;
+  }
+
+  // Visão inicial: uma fileira por categoria, rolando na horizontal.
+  const known=Object.keys(CATS).filter(cat=>list.some(r=>r.categoria===cat));
+  const extras=[...new Set(list.map(r=>r.categoria))].filter(cat=>!CATS[cat]);
+  c.innerHTML=`<div class="shelves">`+[...known,...extras].map(cat=>{
+    const items=list.filter(r=>r.categoria===cat);
+    const color=(CATS[cat]||CATS['Lanches']).c;
+    return `<section class="shelf">
+      <div class="shelf-head">
+        <h2><span class="shelf-dot" style="background:${color}"></span>${esc(cat)}<span class="shelf-count">${items.length} receita${items.length===1?'':'s'}</span></h2>
+        <button class="shelf-see" data-cat="${esc(cat)}">ver todas →</button>
+      </div>
+      <div class="rail-wrap">
+        <button class="rail-nav" data-dir="-1" aria-label="Anterior">‹</button>
+        <div class="rail">${items.map(cardHTML).join('')}</div>
+        <button class="rail-nav" data-dir="1" aria-label="Próximo">›</button>
+      </div>
+    </section>`;
+  }).join('')+`</div>`;
+  bindRails();
+}
+
+function cardHTML(r){
+  return `
     <div class="rcard" onclick="openDetail('${r.id}')">
       <div class="rcard-art" style="background:${grad(r.categoria)}">
         ${r.imagem?`<img src="${esc(r.imagem)}" alt="${esc(r.titulo)}" loading="lazy">`:`<span class="emoji">${r.emoji||'🍽️'}</span>`}
@@ -312,8 +360,39 @@ function render(){
         <h3>${esc(r.titulo)}</h3>
         <div class="rcard-tags">${tagsHTML(r)}</div>
       </div>
-    </div>`).join('')+`</div>`;
+    </div>`;
 }
+
+/* Setas das fileiras: some quando chega no fim do trilho. */
+function bindRails(){
+  document.querySelectorAll('.rail').forEach(rail=>{
+    const wrap=rail.parentElement;
+    const prev=wrap.querySelector('.rail-nav[data-dir="-1"]');
+    const next=wrap.querySelector('.rail-nav[data-dir="1"]');
+    const sync=()=>{
+      prev.disabled=rail.scrollLeft<8;
+      next.disabled=rail.scrollLeft+rail.clientWidth>=rail.scrollWidth-8;
+    };
+    rail.addEventListener('scroll',sync,{passive:true});
+    window.addEventListener('resize',sync);
+    sync();
+  });
+}
+
+el('content').addEventListener('click',e=>{
+  const nav=e.target.closest('.rail-nav');
+  if(nav){
+    const rail=nav.parentElement.querySelector('.rail');
+    rail.scrollBy({left:Number(nav.dataset.dir)*rail.clientWidth*.85,behavior:'smooth'});
+    return;
+  }
+  const see=e.target.closest('.shelf-see');
+  if(see){
+    filters.categoria=see.dataset.cat;
+    renderChips();render();
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+});
 
 /* ---------------- Filtros ---------------- */
 function renderChips(){
