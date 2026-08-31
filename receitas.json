@@ -8,7 +8,6 @@
   "categoria": "Cafés da Manhã",
   "fit": true,
   "emoji": "🍳",
-  "imagem": "imagens/importadas/r4.jpg",
   "ingredientes": [
    "2 col. de sopa de aveia em flocos — ou 20g",
    "1 col. de sopa de chia — ou 15g",
@@ -24,7 +23,8 @@
    "Adicione o whey ou leite em pó até ficar cremoso.",
    "Finalize como preferir."
   ],
-  "criadoEm": 1788134567206
+  "criadoEm": 1788134567206,
+  "imagem": "imagens/importadas/r4.jpg"
  },
  {
   "id": "r5",
@@ -595,7 +595,7 @@
   "categoria": "Cafés da Manhã",
   "fit": true,
   "emoji": "🍳",
-  "imagem": "",
+  "imagem": "imagens/importadas/r27.jpg",
   "ingredientes": [
    "💡 Dica opcional: Recheie com 1 fatia de queijo muçarela e finalize na sanduicheira. 1 ovo",
    "100g de batata doce",
@@ -618,7 +618,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r28.jpg",
   "ingredientes": [
    "4 batatas inglesas grandes",
    "200g de frango cozido temperado",
@@ -635,7 +634,8 @@
    "Finalize no forno ou air fryer.",
    "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
   ],
-  "criadoEm": 1788134567326
+  "criadoEm": 1788134567326,
+  "imagem": "imagens/importadas/r28.jpg"
  },
  {
   "id": "r29",
@@ -814,7 +814,7 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "",
+  "imagem": "imagens/importadas/r35.jpg",
   "ingredientes": [
    "💡 Dica opcional: Coloque a carne moída temperada sobre a massa pré- assada e congele com ela crua — na hora de consumir ela fica mais suculenta. 500g de batata inglesa cozida",
    "3 col. de sopa de farinha de aveia — ou 60g",
@@ -845,7 +845,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r36.jpg",
   "ingredientes": [
    "💡 Dica opcional: Bata a ricota e o espinafre no processador até formar uma pasta, ajuste o sal e coloque sobre as massas já pré-assadas. Congele e aqueça só na hora de consumir. 500g de batata inglesa cozida",
    "3 col. de sopa de farinha de aveia — ou 60g",
@@ -864,7 +863,8 @@
    "Conservação Congelador: 30 dias; Geladeira: até 5 dias L A N C H E S S A L G A D O S",
    "🌡️"
   ],
-  "criadoEm": 1788134567386
+  "criadoEm": 1788134567386,
+  "imagem": "imagens/importadas/r36.jpg"
  },
  {
   "id": "r37",
@@ -875,7 +875,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r37.jpg",
   "ingredientes": [
    "130g de carne moída magra crua (patinho, coxão mole ou músculo)",
    "2 unidades de massa de pastel — ou 30g",
@@ -895,7 +894,8 @@
    "Armazene no freezer e prepare no forno ou air fryer por cerca de 30 minutos a 160 graus na hora de consumir.",
    "Conservação Congelador: até 30 dias; Geladeira: não recomendado L A N C H E S S A L G A D O S"
   ],
-  "criadoEm": 1788134567394
+  "criadoEm": 1788134567394,
+  "imagem": "imagens/importadas/r37.jpg"
  },
  {
   "id": "r38",
@@ -906,7 +906,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r38.jpg",
   "ingredientes": [
    "300g de abóbora cabotiá cozida",
    "4 col. de sopa cheias de farinha de aveia — ou 50g",
@@ -922,7 +921,8 @@
    "Finalize com o recheio de frango e requeijão.",
    "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
   ],
-  "criadoEm": 1788134567401
+  "criadoEm": 1788134567401,
+  "imagem": "imagens/importadas/r38.jpg"
  },
  {
   "id": "r39",
@@ -1273,7 +1273,7 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "",
+  "imagem": "imagens/importadas/r52.jpg",
   "ingredientes": [
    "4 fatias de pão artesano — ou 140g",
    "2 latas de atum ao natural — ou 240g",
@@ -1306,7 +1306,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r53.jpg",
   "ingredientes": [
    "1 fatia de pão artesano — ou 35g",
    "65g de carne moída magra crua (patinho, coxão mole ou músculo)",
@@ -1324,7 +1323,8 @@
    "Na hora de consumir, prepare na air fryer por cerca de 15 a 20 minutos a 160 graus; sem congelar, 5 a 6 minutos a 180 graus.",
    "Conservação Congelador: até 30 dias; Geladeira: não recomendado — somente no mesmo dia"
   ],
-  "criadoEm": 1788134567505
+  "criadoEm": 1788134567505,
+  "imagem": "imagens/importadas/r53.jpg"
  },
  {
   "id": "r54",
@@ -1425,7 +1425,6 @@
   "categoria": "Lanches Salgados",
   "fit": true,
   "emoji": "🥪",
-  "imagem": "imagens/importadas/r57.jpg",
   "ingredientes": [
    "1 ovo",
    "2 col. de sopa cheias de atum — ou 30g",
@@ -1444,7 +1443,8 @@
    "Reaqueça no micro-ondas ou air fryer na hora de consumir.",
    "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
   ],
-  "criadoEm": 1788134567533
+  "criadoEm": 1788134567533,
+  "imagem": "imagens/importadas/r57.jpg"
  },
  {
   "id": "r58",
@@ -1507,7 +1507,6 @@
   "categoria": "Bolos Saudáveis",
   "fit": true,
   "emoji": "🍰",
-  "imagem": "imagens/importadas/r60.jpg",
   "ingredientes": [
    "2 ovos",
    "1 pote de iogurte natural desnatado — ou 160g",
@@ -1522,7 +1521,8 @@
    "Leve para assar por 20 a 25 minutos a 180 graus.",
    "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
   ],
-  "criadoEm": 1788134567553
+  "criadoEm": 1788134567553,
+  "imagem": "imagens/importadas/r60.jpg"
  },
  {
   "id": "r61",
@@ -1625,7 +1625,6 @@
   "categoria": "Bolos Saudáveis",
   "fit": true,
   "emoji": "🍰",
-  "imagem": "imagens/importadas/r64.jpg",
   "ingredientes": [
    "1 ovo",
    "1 banana bem madura — ou 50g",
@@ -1638,7 +1637,8 @@
    "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias",
    "🌡️"
   ],
-  "criadoEm": 1788134567574
+  "criadoEm": 1788134567574,
+  "imagem": "imagens/importadas/r64.jpg"
  },
  {
   "id": "r65",
@@ -2059,7 +2059,6 @@
   "categoria": "Bolos Saudáveis",
   "fit": true,
   "emoji": "🍰",
-  "imagem": "imagens/importadas/r80.jpg",
   "ingredientes": [
    "150g de leite em pó desnatado",
    "3 ovos",
@@ -2073,7 +2072,8 @@
    "Asse em forno pré-aquecido a 180 graus por cerca de 20 minutos.",
    "Conservação Congelador: 30 dias; Geladeira: 5 a 7 dias"
   ],
-  "criadoEm": 1788134567659
+  "criadoEm": 1788134567659,
+  "imagem": "imagens/importadas/r80.jpg"
  },
  {
   "id": "r81",
@@ -2163,7 +2163,7 @@
   "categoria": "Bolos Saudáveis",
   "fit": true,
   "emoji": "🍰",
-  "imagem": "",
+  "imagem": "imagens/importadas/r84.jpg",
   "ingredientes": [
    "3 ovos",
    "3 col. de sopa de farinha de aveia — ou 30g",
@@ -2192,7 +2192,6 @@
   "categoria": "Lanches Doces",
   "fit": true,
   "emoji": "🍫",
-  "imagem": "imagens/importadas/r85.jpg",
   "ingredientes": [
    "💡 Dica opcional: Sirva com 30g de whey ou leite em pó desnatado para uma versão ainda mais proteica. 2 potes de iogurte natural desnatado — ou 320g",
    "4 col. de sopa de aveia em flocos — ou 40g",
@@ -2206,7 +2205,8 @@
    "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias",
    "🌡️"
   ],
-  "criadoEm": 1788134567688
+  "criadoEm": 1788134567688,
+  "imagem": "imagens/importadas/r85.jpg"
  },
  {
   "id": "r86",
@@ -2887,7 +2887,7 @@
   "categoria": "Lanches Doces",
   "fit": true,
   "emoji": "🍫",
-  "imagem": "",
+  "imagem": "imagens/importadas/r111.jpg",
   "ingredientes": [
    "💡 Dica opcional: Consuma gelado. Faça em quantidade para a semana — fica ainda melhor no dia seguinte. 1 pote de iogurte natural desnatado — ou 160g",
    "3 col. de sopa de leite em pó desnatado — ou 30g",
@@ -2914,7 +2914,6 @@
   "categoria": "SOS Delivery",
   "fit": true,
   "emoji": "🍔",
-  "imagem": "imagens/importadas/r112.jpg",
   "ingredientes": [
    "130g de carne magra moída crua (patinho, coxão mole ou músculo)",
    "Páprica defumada a gosto",
@@ -2930,7 +2929,8 @@
    "Faça em quantidade para ter sempre no congelador. Ex: 1.300g de carne moída rende 10 unidades.",
    "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
   ],
-  "criadoEm": 1788134567826
+  "criadoEm": 1788134567826,
+  "imagem": "imagens/importadas/r112.jpg"
  },
  {
   "id": "r113",
@@ -2941,7 +2941,6 @@
   "categoria": "SOS Delivery",
   "fit": true,
   "emoji": "🍔",
-  "imagem": "imagens/importadas/r113.jpg",
   "ingredientes": [
    "1 unidade do Hambúrguer de Carne (Receita Base)",
    "1 unidade de pão de hambúrguer — ou 50g",
@@ -2956,7 +2955,8 @@
    "Divida o pão em 3 fatias se preferir deixar igual à divisão de um Big Mac tradicional.",
    "Monte as camadas com o queijo, alface e pepino, e aproveite."
   ],
-  "criadoEm": 1788134567830
+  "criadoEm": 1788134567830,
+  "imagem": "imagens/importadas/r113.jpg"
  },
  {
   "id": "r114",
@@ -3382,7 +3382,7 @@
   "categoria": "SOS Delivery",
   "fit": true,
   "emoji": "🍔",
-  "imagem": "",
+  "imagem": "imagens/importadas/r129.jpg",
   "ingredientes": [
    "800g de carne magra moída crua (patinho, coxão mole ou músculo)",
    "Páprica defumada a gosto",
@@ -3411,7 +3411,6 @@
   "categoria": "Receitas Inclusivas",
   "fit": true,
   "emoji": "🍲",
-  "imagem": "imagens/importadas/r130.jpg",
   "ingredientes": [
    "200g de leite em pó desnatado zero lactose ou leite vegetal em pó",
    "200ml de água quente",
@@ -3424,7 +3423,8 @@
    "Armazene na geladeira em pote de vidro higienizado com tampa.",
    "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
   ],
-  "criadoEm": 1788134567899
+  "criadoEm": 1788134567899,
+  "imagem": "imagens/importadas/r130.jpg"
  },
  {
   "id": "r131",
@@ -3829,7 +3829,7 @@
   "categoria": "Receitas Inclusivas",
   "fit": true,
   "emoji": "🍲",
-  "imagem": "",
+  "imagem": "imagens/importadas/r146.jpg",
   "ingredientes": [
    "250g de lentilha rosa crua",
    "1,3L de água fervente",
@@ -3853,7 +3853,6 @@
   "categoria": "Sorvete Minuto",
   "fit": true,
   "emoji": "🍨",
-  "imagem": "imagens/importadas/r147.jpg",
   "ingredientes": [
    "200g de abacaxi congelado",
    "3 cubos de leite de coco light congelado em forminhas de gelo",
@@ -3862,7 +3861,8 @@
   "modo": [
    "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
   ],
-  "criadoEm": 1788134567960
+  "criadoEm": 1788134567960,
+  "imagem": "imagens/importadas/r147.jpg"
  },
  {
   "id": "r148",
@@ -3954,7 +3954,7 @@
   "categoria": "Sorvete Minuto",
   "fit": true,
   "emoji": "🍨",
-  "imagem": "",
+  "imagem": "imagens/importadas/r152.jpg",
   "ingredientes": [
    "200g de uva congelada sem semente",
    "30g de leite em pó desnatado — ou 15g de whey + 15g de leite em pó desnatado"
@@ -3973,7 +3973,6 @@
   "categoria": "Hack do Iogurte",
   "fit": true,
   "emoji": "🥛",
-  "imagem": "imagens/importadas/r153.jpg",
   "ingredientes": [
    "1L de leite desnatado (também pode ser integral ou semidesnatado)",
    "1 pote de iogurte natural — ou 160g (pode ser integral ou desnatado, não faz tanta diferença na composição final)",
@@ -4001,7 +4000,7 @@
   "categoria": "Salgados",
   "fit": true,
   "emoji": "🧀",
-  "imagem": "https://raw.githubusercontent.com/thiagorochedo80/RSP-Imagens-Lanches-Salgados/main/1.jpg",
+  "imagem": "imagens/importadas/r3.jpg",
   "ingredientes": [
    "2 fatias de queijo muçarela (ou 40 g)",
    "50 g de goma de tapioca",
