@@ -57,6 +57,9 @@
   .rcard-art{height:130px;display:flex;align-items:center;justify-content:center;position:relative;border-bottom:1px solid rgba(255,255,255,.4)}
   .rcard-art .emoji{font-size:56px;filter:drop-shadow(0 3px 6px rgba(0,0,0,.18))}
   .rcard-art img{width:100%;height:100%;object-fit:cover;display:block}
+  .fav-btn{position:absolute;top:8px;right:8px;width:32px;height:32px;border-radius:50%;background:rgba(252,248,240,.9);display:flex;align-items:center;justify-content:center;font-size:16px;line-height:1;box-shadow:0 1px 3px rgba(53,42,32,.18);transition:transform .12s}
+  .fav-btn:hover{transform:scale(1.12)}
+  .fav-btn[data-on="1"]{background:#CF4A2C;color:#FCF8F0}
   .rcard-art .time{position:absolute;bottom:8px;right:8px;font-size:11px;font-weight:600;color:var(--ink);background:rgba(252,248,240,.9);padding:3px 8px;border-radius:999px}
   .rcard-body{padding:13px 14px 15px}
   .rcard-body h3{font-family:'Fraunces',serif;font-weight:600;font-size:17px;line-height:1.2;letter-spacing:-.01em}
@@ -224,7 +227,8 @@
 
 <script>
 let recipes=[];
-let filters={categoria:null,fit:false};
+let filters={categoria:null,fit:false,fav:false};
+let favs=new Set();      // ids favoritados, guardados neste navegador
 let search='';
 let draft=null;         // receita em edição no modal
 let editingId=null;     // id se estiver editando existente
@@ -257,6 +261,37 @@ function tagsHTML(r){
   let h=`<span class="tag" style="background:${cc}22;color:${cc}">${esc(r.categoria||'Lanches')}</span>`;
   if(r.fit)h+=`<span class="tag" style="background:${FIT.bg};color:${FIT.c}">🌱 Fit</span>`;
   return h;
+}
+
+/* ---------------- Favoritas (só neste navegador) ---------------- */
+const FAVS_KEY='rc-favoritas';
+function loadFavs(){
+  try{ favs=new Set(JSON.parse(localStorage.getItem(FAVS_KEY)||'[]')); }
+  catch(e){ favs=new Set(); }
+}
+function saveFavs(){
+  try{ localStorage.setItem(FAVS_KEY,JSON.stringify([...favs])); }catch(e){}
+}
+function toggleFav(id){
+  if(favs.has(id)){favs.delete(id);toast('Tirada das favoritas');}
+  else{favs.add(id);toast('Favoritada ⭐');}
+  saveFavs();
+  // Guarda a rolagem de cada fileira pra não voltar tudo pro começo.
+  const pos={};
+  document.querySelectorAll('.shelf').forEach(s=>{
+    const nome=s.querySelector('h2')?.textContent||'';
+    pos[nome]=s.querySelector('.rail')?.scrollLeft||0;
+  });
+  renderChips();render();
+  document.querySelectorAll('.shelf').forEach(s=>{
+    const nome=s.querySelector('h2')?.textContent||'';
+    const rail=s.querySelector('.rail');
+    if(rail&&pos[nome])rail.scrollLeft=pos[nome];
+  });
+}
+// Favoritas na frente, resto na ordem original.
+function favFirst(list){
+  return [...list].sort((a,b)=>(favs.has(b.id)?1:0)-(favs.has(a.id)?1:0));
 }
 
 /* ---------------- Storage: receitas em receitas.json no repositório ---------------- */
@@ -297,6 +332,7 @@ function render(){
   let list=recipes.filter(r=>{
     if(filters.categoria&&r.categoria!==filters.categoria)return false;
     if(filters.fit&&!r.fit)return false;
+    if(filters.fav&&!favs.has(r.id))return false;
     if(search){
       const q=search.toLowerCase();
       const inName=r.titulo.toLowerCase().includes(q);
@@ -323,21 +359,18 @@ function render(){
   }
 
   // Com filtro, busca ou categoria escolhida: grade simples com o resultado.
-  if(filters.categoria||filters.fit||search){
-    c.innerHTML=`<div class="grid">`+list.map(cardHTML).join('')+`</div>`;
+  if(filters.categoria||filters.fit||filters.fav||search){
+    c.innerHTML=`<div class="grid">`+favFirst(list).map(cardHTML).join('')+`</div>`;
     return;
   }
 
   // Visão inicial: uma fileira por categoria, rolando na horizontal.
   const known=Object.keys(CATS).filter(cat=>list.some(r=>r.categoria===cat));
   const extras=[...new Set(list.map(r=>r.categoria))].filter(cat=>!CATS[cat]);
-  c.innerHTML=`<div class="shelves">`+[...known,...extras].map(cat=>{
-    const items=list.filter(r=>r.categoria===cat);
-    const color=(CATS[cat]||CATS['Lanches']).c;
-    return `<section class="shelf">
+  const shelf=(nome,color,items,seeData)=>`<section class="shelf">
       <div class="shelf-head">
-        <h2><span class="shelf-dot" style="background:${color}"></span>${esc(cat)}<span class="shelf-count">${items.length} receita${items.length===1?'':'s'}</span></h2>
-        <button class="shelf-see" data-cat="${esc(cat)}">ver todas →</button>
+        <h2><span class="shelf-dot" style="background:${color}"></span>${esc(nome)}<span class="shelf-count">${items.length} receita${items.length===1?'':'s'}</span></h2>
+        <button class="shelf-see" ${seeData}>ver todas →</button>
       </div>
       <div class="rail-wrap">
         <button class="rail-nav" data-dir="-1" aria-label="Anterior">‹</button>
@@ -345,7 +378,13 @@ function render(){
         <button class="rail-nav" data-dir="1" aria-label="Próximo">›</button>
       </div>
     </section>`;
-  }).join('')+`</div>`;
+
+  const favoritas=list.filter(r=>favs.has(r.id));
+  c.innerHTML=`<div class="shelves">`
+  +(favoritas.length?shelf('⭐ Favoritas','#CF4A2C',favoritas,'data-fav="1"'):'')
+  +[...known,...extras].map(cat=>
+    shelf(cat,(CATS[cat]||CATS['Lanches']).c,favFirst(list.filter(r=>r.categoria===cat)),`data-cat="${esc(cat)}"`)
+  ).join('')+`</div>`;
   bindRails();
 }
 
@@ -354,6 +393,7 @@ function cardHTML(r){
     <div class="rcard" onclick="openDetail('${r.id}')">
       <div class="rcard-art" style="background:${grad(r.categoria)}">
         ${r.imagem?`<img src="${esc(r.imagem)}" alt="${esc(r.titulo)}" loading="lazy">`:`<span class="emoji">${r.emoji||'🍽️'}</span>`}
+        <button class="fav-btn" data-fav-id="${r.id}" data-on="${favs.has(r.id)?'1':''}" aria-label="Favoritar" title="Favoritar">${favs.has(r.id)?'♥':'♡'}</button>
         ${r.tempo||r.calorias?`<span class="time">${r.tempo?'⏱ '+esc(r.tempo):'🔥 '+esc(r.calorias)}</span>`:''}
       </div>
       <div class="rcard-body">
@@ -379,6 +419,14 @@ function bindRails(){
   });
 }
 
+// Captura antes do onclick do card, senão favoritar abriria a receita.
+el('content').addEventListener('click',e=>{
+  const f=e.target.closest('.fav-btn');
+  if(!f)return;
+  e.stopPropagation();e.preventDefault();
+  toggleFav(f.dataset.favId);
+},true);
+
 el('content').addEventListener('click',e=>{
   const nav=e.target.closest('.rail-nav');
   if(nav){
@@ -388,7 +436,8 @@ el('content').addEventListener('click',e=>{
   }
   const see=e.target.closest('.shelf-see');
   if(see){
-    filters.categoria=see.dataset.cat;
+    if(see.dataset.fav)filters.fav=true;
+    else filters.categoria=see.dataset.cat;
     renderChips();render();
     window.scrollTo({top:0,behavior:'smooth'});
   }
@@ -397,7 +446,8 @@ el('content').addEventListener('click',e=>{
 /* ---------------- Filtros ---------------- */
 function renderChips(){
   const used=Object.keys(CATS).filter(c=>recipes.some(r=>r.categoria===c));
-  el('chips').innerHTML=`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`
+  el('chips').innerHTML=(favs.size?`<button class="chip" data-favfilter="1" data-on="${filters.fav?'1':''}" style="${filters.fav?'background:#CF4A2C':''}">⭐ Favoritas (${favs.size})</button>`:'')
+  +`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`
   +used.map(c=>{
     const on=filters.categoria===c;
     return `<button class="chip" data-cat="${c}" data-on="${on?'1':''}" style="${on?`background:${CATS[c].c}`:''}">${c}</button>`;
@@ -405,7 +455,8 @@ function renderChips(){
 }
 el('chips').addEventListener('click',e=>{
   const b=e.target.closest('.chip');if(!b)return;
-  if(b.dataset.fit)filters.fit=!filters.fit;
+  if(b.dataset.favfilter)filters.fav=!filters.fav;
+  else if(b.dataset.fit)filters.fit=!filters.fit;
   else filters.categoria=filters.categoria===b.dataset.cat?null:b.dataset.cat;
   renderChips();render();
 });
@@ -646,6 +697,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeOverlay('addOv
 /* ---------------- Boot ---------------- */
 (async()=>{
   el('content').innerHTML='<div class="loading-page">Abrindo seu caderno…</div>';
+  loadFavs();
   await loadRecipes();
   renderChips();
   render();
