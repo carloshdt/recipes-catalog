@@ -210,6 +210,14 @@ let draft=null;         // receita em edição no modal
 let editingId=null;     // id se estiver editando existente
 
 const CATS={
+  'Cafés da Manhã':     {c:'#C4A35A',g:['#F3E3B0','#D4B45C']},
+  'Lanches Salgados':   {c:'#C25A28',g:['#F2B08A','#D06A3A']},
+  'Bolos Saudáveis':    {c:'#B14A6B',g:['#F0C2D4','#C77E9C']},
+  'Lanches Doces':      {c:'#8E5185',g:['#E8C0E0','#B57BA8']},
+  'SOS Delivery':       {c:'#CF4A2C',g:['#F2B49A','#D45A38']},
+  'Receitas Inclusivas':{c:'#5E7C4E',g:['#CDE3A8','#8FBE68']},
+  'Hack do Iogurte':    {c:'#6B8EA0',g:['#C6DCE8','#7AA3B8']},
+  'Sorvete Minuto':     {c:'#6B5AA0',g:['#CFC6E8','#9A8CC9']},
   'Lanches':            {c:'#A8622B',g:['#EBC98F','#C98A4E']},
   'Salgados':           {c:'#C25A28',g:['#F2B08A','#D06A3A']},
   'Massas':             {c:'#A5801F',g:['#F0D080','#C9A23E']},
@@ -309,8 +317,9 @@ function render(){
 
 /* ---------------- Filtros ---------------- */
 function renderChips(){
+  const used=Object.keys(CATS).filter(c=>data.some(r=>r.categoria===c));
   el('chips').innerHTML=`<button class="chip" data-fit="1" data-on="${filters.fit?'1':''}" style="${filters.fit?`background:${FIT.c}`:''}">🌱 Fit</button>`
-  +Object.keys(CATS).map(c=>{
+  +used.map(c=>{
     const on=filters.categoria===c;
     return `<button class="chip" data-cat="${c}" data-on="${on?'1':''}" style="${on?`background:${CATS[c].c}`:''}">${c}</button>`;
   }).join('');
@@ -383,7 +392,7 @@ Regras:
 - "titulo": nome curto e claro do prato.
 - "ingredientes": um item por elemento, com quantidade quando houver.
 - "modo": passos objetivos, um passo por elemento, sem numeração no texto.
-- "categoria": exatamente uma de: "Lanches", "Salgados", "Massas", "Carnes", "Frangos", "Sopas", "Saladas", "Bolos", "Tortas", "Doces", "Sobremesas".
+- "categoria": exatamente uma de: "Cafés da Manhã", "Lanches Salgados", "Bolos Saudáveis", "Lanches Doces", "SOS Delivery", "Receitas Inclusivas", "Hack do Iogurte", "Sorvete Minuto", "Lanches", "Salgados", "Massas", "Carnes", "Frangos", "Sopas", "Saladas", "Bolos", "Tortas", "Doces", "Sobremesas".
 - "fit": true apenas se a receita for claramente leve/saudável (ingredientes light, assado em vez de frito, poucas calorias); senão false.
 - "emoji": um único emoji de comida que represente o prato.
 - "tempo": estimativa curta tipo "40 min" se der pra inferir, senão "".

@@ -1,5 +1,4020 @@
 [
  {
+  "id": "r4",
+  "titulo": "Mingau de Aveia",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "202 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r4.jpg",
+  "ingredientes": [
+   "2 col. de sopa de aveia em flocos — ou 20g",
+   "1 col. de sopa de chia — ou 15g",
+   "80ml de leite desnatado",
+   "10g de whey ou leite em pó desnatado",
+   "Canela a gosto",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Cozinhe a aveia, a chia e o leite na panela ou micro-ondas.",
+   "No micro-ondas, aqueça de 30 em 30 segundos até engrossar.",
+   "Na panela, mexa até engrossar.",
+   "Adicione o whey ou leite em pó até ficar cremoso.",
+   "Finalize como preferir."
+  ],
+  "criadoEm": 1788134567206
+ },
+ {
+  "id": "r5",
+  "titulo": "Panqueca de Banana",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "208 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r5.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Finalize com mel, iogurte natural, whey ou geleia de frutas, se desejar. 1 banana — ou 50g",
+   "1 ovo",
+   "2 col. de sopa de farelo de aveia — ou 20g",
+   "1 col. de café de fermento químico — ou 2g"
+  ],
+  "modo": [
+   "Amasse a banana.",
+   "Misture com o ovo, o farelo de aveia e o fermento.",
+   "Faça uma panqueca grande ou 4 mini panquecas em uma frigideira."
+  ],
+  "criadoEm": 1788134567210
+ },
+ {
+  "id": "r6",
+  "titulo": "Pão de Mel de Frigideira",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "253 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r6.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Sirva com iogurte, doce de leite ou whey, se desejar. 1 ovo",
+   "1 col. de sopa de farinha de aveia — ou 20g",
+   "1 col. de sopa de cacau em pó 50% — ou 20g",
+   "1 col. de sopa de mel — ou 20g",
+   "1 col. de sopa de iogurte natural desnatado — ou 15g",
+   "Canela a gosto",
+   "Cravo em pó a gosto",
+   "1 col. de café de fermento químico — ou 2g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes até formar uma massa homogênea.",
+   "Cozinhe em fogo baixo até dourar dos dois lados."
+  ],
+  "criadoEm": 1788134567217
+ },
+ {
+  "id": "r7",
+  "titulo": "Rabanada",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "198 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r7.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "20ml de leite desnatado",
+   "Canela a gosto",
+   "Adoçante a gosto",
+   "Essência de baunilha a gosto",
+   "2 fatias de pão — ou 50g"
+  ],
+  "modo": [
+   "Misture o ovo, o leite, a canela, o adoçante e a essência de baunilha.",
+   "Molhe o pão na mistura.",
+   "Doure dos dois lados na frigideira.",
+   "Finalize com canela, leite em pó e frutas, se desejar."
+  ],
+  "criadoEm": 1788134567220
+ },
+ {
+  "id": "r8",
+  "titulo": "Torta de Maçã",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "291 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r8.jpg",
+  "ingredientes": [
+   "1 maçã",
+   "1 ovo",
+   "1 col. de sopa de mel — ou 20g",
+   "2 col. de sopa de farelo de aveia — ou 20g",
+   "1 col. de café de fermento químico — ou 2g",
+   "Canela a gosto",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Fatie metade da maçã e forre o fundo de uma frigideira.",
+   "Adicione o mel por cima.",
+   "Misture a outra metade da maçã ralada com os demais ingredientes.",
+   "Despeje sobre a frigideira.",
+   "Tampe e cozinhe em fogo baixo ou com duas grades do fogão."
+  ],
+  "criadoEm": 1788134567225
+ },
+ {
+  "id": "r9",
+  "titulo": "Bolinho de Cuscuz",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "124 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r9.jpg",
+  "ingredientes": [
+   "100g de flocão de milho",
+   "100ml de água",
+   "60g de carne moída cozida",
+   "2 col. de sopa de requeijão light — ou 60g",
+   "1 fatia e ½ de queijo muçarela — ou 30g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Hidrate o flocão de milho por 10 minutos.",
+   "Distribua metade do flocão em 6 forminhas de silicone.",
+   "Recheie com a carne e 10g de requeijão em cada porção.",
+   "Cubra com o restante do flocão.",
+   "Finalize com 5g de queijo muçarela em cada.",
+   "Asse por cerca de 6 minutos na air fryer ou forno a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567230
+ },
+ {
+  "id": "r10",
+  "titulo": "Cuscuz Romeu e Julieta",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "373 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r10.jpg",
+  "ingredientes": [
+   "4 col. de sopa de flocão de milho — ou 40g",
+   "20ml de água",
+   "1 ovo",
+   "Sal a gosto",
+   "Pimenta a gosto",
+   "1 col. de sopa de creme de ricota light — ou 30g",
+   "1 fatia de queijo muçarela — ou 20g",
+   "20g de goiabada"
+  ],
+  "modo": [
+   "Hidrate o flocão de milho.",
+   "Tempere com sal e pimenta e espalhe na frigideira.",
+   "Misture o ovo com o creme de ricota e despeje sobre o flocão.",
+   "Adicione a fatia de queijo muçarela e a goiabada.",
+   "Tampe até cozinhar."
+  ],
+  "criadoEm": 1788134567233
+ },
+ {
+  "id": "r11",
+  "titulo": "Cuscuzovo",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "339 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r11.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "4 col. de sopa de flocão de milho — ou 40g",
+   "2 col. de sopa de água",
+   "1 col. de sopa de creme de ricota light — ou 30g",
+   "Sal a gosto",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Hidrate o flocão com água.",
+   "Espalhe na frigideira.",
+   "Adicione os ovos com o creme de ricota.",
+   "Tempere, tampe e cozinhe em fogo baixo."
+  ],
+  "criadoEm": 1788134567237
+ },
+ {
+  "id": "r12",
+  "titulo": "Cuscuzovo Plus",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "292 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r12.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Essa é uma opção com mais proteína, ótima para um café da manhã com ainda mais saciedade ou pós-treino. 1 ovo",
+   "150ml de clara de ovo pasteurizada",
+   "3 col. de sopa de flocão de milho — ou 30g",
+   "2 col. de sopa de água",
+   "1 col. de sopa de creme de ricota light — ou 30g",
+   "Sal a gosto",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Hidrate o flocão com água.",
+   "Espalhe na frigideira.",
+   "Misture o ovo, a clara de ovo e o creme de ricota.",
+   "Tempere a gosto e despeje sobre o flocão.",
+   "Tampe e cozinhe em fogo baixo por cerca de 4 minutos, ou até o ovo cozinhar completamente.",
+   "Dobre ao meio e sirva."
+  ],
+  "criadoEm": 1788134567241
+ },
+ {
+  "id": "r13",
+  "titulo": "Mingau de Milho",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "205 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r13.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Finalize com whey, leite em pó, frutas ou canela, se desejar. 250ml de leite desnatado",
+   "30ml de leite de coco light",
+   "3 col. de sopa de flocão de milho — ou 30g",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em uma panela.",
+   "Mexa sem parar até engrossar."
+  ],
+  "criadoEm": 1788134567244
+ },
+ {
+  "id": "r14",
+  "titulo": "Pão de Cuscuz",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "244 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r14.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "4 col. de sopa de flocão de milho — ou 40g",
+   "5 col. de sopa de água",
+   "1 col. de sopa de requeijão light — ou 30g",
+   "Sal a gosto",
+   "Temperos a gosto",
+   "1 col. de chá de fermento químico — ou 4g"
+  ],
+  "modo": [
+   "Hidrate o flocão de milho por 10 minutos.",
+   "Tempere a gosto.",
+   "Misture com o requeijão e o fermento.",
+   "Cozinhe por 2 minutos na frigideira ou micro-ondas.",
+   "Se preferir, asse em forno a 180 graus por 20 a 25 minutos se for fazer em quantidade.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567251
+ },
+ {
+  "id": "r15",
+  "titulo": "Abacate e Ovos",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "344 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r15.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "50g de abacate",
+   "2 fatias de pão torrado — ou 50g",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Cozinhe os ovos em água ou na frigideira.",
+   "Toste as fatias de pão.",
+   "Espalhe o abacate sobre o pão.",
+   "Coloque os ovos por cima.",
+   "Tempere com sal e pimenta."
+  ],
+  "criadoEm": 1788134567257
+ },
+ {
+  "id": "r16",
+  "titulo": "Ovo Mexido com Banana",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "210 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r16.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Adicione queijo se preferir e sirva com pão, torradas ou tapioca. 2 ovos",
+   "1 banana — ou 50g",
+   "Sal a gosto",
+   "Canela a gosto"
+  ],
+  "modo": [
+   "Amasse a banana.",
+   "Adicione os ovos e a banana na frigideira.",
+   "Mexa em fogo baixo até ficar cremoso.",
+   "Tempere com sal e canela."
+  ],
+  "criadoEm": 1788134567262
+ },
+ {
+  "id": "r17",
+  "titulo": "Ovos Mexidos Cremosos",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "141 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r17.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Quebre os ovos na frigideira.",
+   "Cozinhe em fogo baixo mexendo sem parar.",
+   "Continue até ficar cremoso e cozido, sem ressecar."
+  ],
+  "criadoEm": 1788134567272
+ },
+ {
+  "id": "r18",
+  "titulo": "Ovos no Purgatório",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "157 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r18.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Sirva com pão ou torradas. 2 ovos",
+   "4 col. de sopa de passata de tomate — ou 40g",
+   "Sal a gosto",
+   "Pimenta a gosto",
+   "Manjericão a gosto",
+   "Temperos frescos a gosto"
+  ],
+  "modo": [
+   "Espalhe a passata de tomate temperada na frigideira.",
+   "Dilua com água, se necessário.",
+   "Adicione os ovos.",
+   "Cozinhe tampado até firmar e reduzir o molho."
+  ],
+  "criadoEm": 1788134567277
+ },
+ {
+  "id": "r19",
+  "titulo": "Pasta de Ovos",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "184 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r19.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Utilize como recheio de pão, torrada ou tapioca. 2 ovos cozidos",
+   "1 col. de sopa de requeijão light — ou 30g",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Cozinhe os ovos por 10 minutos em água fervente.",
+   "Amasse os ovos com o requeijão e os temperos."
+  ],
+  "criadoEm": 1788134567283
+ },
+ {
+  "id": "r20",
+  "titulo": "Crepioca Banoffee",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "304 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r20.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "2 col. de sopa de goma de tapioca — ou 20g",
+   "1 banana — ou 50g",
+   "1 col. de sopa de doce de leite — ou 20g",
+   "50g de iogurte grego zero açúcar"
+  ],
+  "modo": [
+   "Misture o ovo com a goma de tapioca.",
+   "Despeje na frigideira até formar a crepioca.",
+   "Recheie com o iogurte, o doce de leite e a banana em rodelas."
+  ],
+  "criadoEm": 1788134567288
+ },
+ {
+  "id": "r21",
+  "titulo": "Crepioca Tradicional",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "277 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r21.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Sugestões de recheio: creme de ricota, requeijão, frango desfiado… 2 ovos",
+   "4 col. de sopa de goma de tapioca — ou 40g",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Misture os ovos com a goma de tapioca e os temperos.",
+   "Despeje na frigideira até formar a crepioca.",
+   "Recheie como preferir."
+  ],
+  "criadoEm": 1788134567292
+ },
+ {
+  "id": "r22",
+  "titulo": "Pão de Queijo de Frigideira",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "307 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r22.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "3 col. de sopa de goma de tapioca / polvilho — ou 30g",
+   "1 fatia de queijo muçarela — ou 20g",
+   "1 col. de sopa de requeijão light — ou 30g"
+  ],
+  "modo": [
+   "Misture o ovo, a goma de tapioca e o sal.",
+   "Despeje na frigideira.",
+   "Adicione o queijo muçarela e o requeijão.",
+   "Doure dos dois lados."
+  ],
+  "criadoEm": 1788134567295
+ },
+ {
+  "id": "r23",
+  "titulo": "Salgadinho de Queijo",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "221 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r23.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "3 col. de sopa de goma de tapioca — ou 30g",
+   "10g de parmesão ralado",
+   "Sal a gosto",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes.",
+   "Despeje em uma frigideira até formar uma crepioca.",
+   "Corte a massa em pedaços menores.",
+   "Leve para assar na air fryer por 5 a 10 minutos a 200 graus."
+  ],
+  "criadoEm": 1788134567298
+ },
+ {
+  "id": "r24",
+  "titulo": "Tapioca Crocante",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "198 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r24.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "2 col. de sopa de goma de tapioca — ou 20g",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Temperos a gosto",
+   "1 fatia de queijo muçarela — ou 20g"
+  ],
+  "modo": [
+   "Coloque a fatia de queijo muçarela na frigideira.",
+   "Espalhe a goma de tapioca por cima (utilize uma peneira se preferir).",
+   "Bata o ovo em uma vasilha com sal e temperos e despeje por cima.",
+   "Tampe e cozinhe até o ovo cozinhar."
+  ],
+  "criadoEm": 1788134567302
+ },
+ {
+  "id": "r25",
+  "titulo": "Pão de Cenoura",
+  "tempo": "",
+  "porcoes": "2",
+  "calorias": "244 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r25.jpg",
+  "ingredientes": [
+   "80g de cenoura sem casca",
+   "2 ovos",
+   "50ml de leite desnatado",
+   "80g de farinha da sua preferência (aveia, trigo, arroz)",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Sal a gosto",
+   "Sementes de gergelim a gosto"
+  ],
+  "modo": [
+   "Bata a cenoura, os ovos e o leite.",
+   "Adicione os ingredientes secos.",
+   "Coloque em uma forma untada.",
+   "Asse em forno pré-aquecido a 180 graus por 20 a 30 minutos ou na air fryer até dourar."
+  ],
+  "criadoEm": 1788134567305
+ },
+ {
+  "id": "r26",
+  "titulo": "Pão de Minuto",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "212 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "imagens/importadas/r26.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Recheie com queijo muçarela ou requeijão / creme de ricota light. 1 ovo",
+   "2 col. de sopa de leite em pó desnatado — ou 20g",
+   "2 col. de sopa de farinha / farelo de aveia — ou 20g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em um refratário que possa ir ao forno ou micro-ondas.",
+   "Asse no forno a 180 graus por 10 a 15 minutos ou no micro-ondas por 2 a 3 minutos."
+  ],
+  "criadoEm": 1788134567308
+ },
+ {
+  "id": "r27",
+  "titulo": "Pãozinho de Batata Doce",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "258 kcal",
+  "categoria": "Cafés da Manhã",
+  "fit": true,
+  "emoji": "🍳",
+  "imagem": "",
+  "ingredientes": [
+   "💡 Dica opcional: Recheie com 1 fatia de queijo muçarela e finalize na sanduicheira. 1 ovo",
+   "100g de batata doce",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em um refratário que possa ir ao forno ou micro-ondas.",
+   "Asse no forno a 180 graus por 20 a 30 minutos ou no micro-ondas por 2 a 5 minutos."
+  ],
+  "criadoEm": 1788134567311
+ },
+ {
+  "id": "r28",
+  "titulo": "Batata Recheada com Frango e Creme de Milho",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "306 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r28.jpg",
+  "ingredientes": [
+   "4 batatas inglesas grandes",
+   "200g de frango cozido temperado",
+   "200g de milho — ou 1 lata",
+   "200ml de leite desnatado",
+   "1 col. de sopa de amido de milho — ou 10g",
+   "2 fatias de queijo muçarela — ou 40g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Cozinhe as batatas no micro-ondas por 10 a 15 minutos.",
+   "Bata no processador o milho, o leite e o amido, ajuste o sal e cozinhe até engrossar. Misture com o frango.",
+   "Amasse o miolo das batatas, divida o recheio em 4 partes e finalize com o queijo muçarela.",
+   "Finalize no forno ou air fryer.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567326
+ },
+ {
+  "id": "r29",
+  "titulo": "Bolinho de Abóbora",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "137 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r29.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "250g de abóbora cabotiá cozida",
+   "2 col. de sopa de farinha de aveia — ou 20g",
+   "200g de carne moída de patinho cozida temperada",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture a abóbora cozida e amassada com o ovo, a farinha e o fermento.",
+   "Divida em 6 porções e recheie cada uma com cerca de 30g de carne moída.",
+   "Finalize passando gema, azeite ou água e sementes por cima.",
+   "Asse em forno pré-aquecido a 180 graus por 30 a 40 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567334
+ },
+ {
+  "id": "r30",
+  "titulo": "Coxinha de Carne de Panela",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "273 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r30.jpg",
+  "ingredientes": [
+   "500g de batata cozida",
+   "60g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "Sal a gosto",
+   "240g de carne de panela desfiada temperada",
+   "2 col. de sopa de requeijão light — ou 60g",
+   "180g de farinha panko ou de rosca"
+  ],
+  "modo": [
+   "Cozinhe as batatas no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha e o sal até formar uma massa.",
+   "Divida em 6 partes, recheie cada uma com cerca de 40g de carne e 10g de requeijão, e empane.",
+   "Asse na air fryer por 10 a 15 minutos ou no forno a 180 graus por 20 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 dias"
+  ],
+  "criadoEm": 1788134567343
+ },
+ {
+  "id": "r31",
+  "titulo": "Coxinha de Frango",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "294 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r31.jpg",
+  "ingredientes": [
+   "500g de batata cozida",
+   "60g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "Sal a gosto",
+   "300g de frango desfiado temperado",
+   "3 fatias de queijo muçarela — ou 60g",
+   "180g de farinha panko ou de rosca"
+  ],
+  "modo": [
+   "Cozinhe as batatas no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha e o sal até formar uma massa.",
+   "Divida em 6 partes, recheie cada uma com cerca de 50g de frango e ¼ de fatia de queijo muçarela, e empane.",
+   "Asse na air fryer por 10 a 15 minutos ou no forno a 180 graus por 20 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 dias"
+  ],
+  "criadoEm": 1788134567351
+ },
+ {
+  "id": "r32",
+  "titulo": "Crepe de Frango com Creme de Milho",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "284 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r32.jpg",
+  "ingredientes": [
+   "200ml de leite desnatado",
+   "2 ovos",
+   "4 col. de sopa de goma de tapioca — ou 80g",
+   "1 col. de sopa de chia — ou 15g",
+   "Sal a gosto",
+   "Pimenta a gosto",
+   "200g de milho — ou 1 lata",
+   "1 col. de sopa cheia de requeijão light — ou 30g",
+   "200g de frango cozido desfiado"
+  ],
+  "modo": [
+   "Para a massa, misture o leite, os ovos, a tapioca, a chia e os temperos.",
+   "Divida em 4 partes e cozinhe cada uma em uma frigideira antiaderente.",
+   "Para o creme de milho, bata em mixer ou processador o milho com o requeijão até ficar um creme homogêneo e ajuste o sal e pimenta.",
+   "Recheie cada crepe com ¼ do creme e 50g de frango.",
+   "Embrulhe em papel manteiga ou alumínio na hora de armazenar.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567359
+ },
+ {
+  "id": "r33",
+  "titulo": "Empadinha de Frango",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "340 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r33.jpg",
+  "ingredientes": [
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "170g de farinha de aveia ou farelo de aveia",
+   "Lemon pepper a gosto",
+   "Açafrão a gosto",
+   "Sal a gosto",
+   "240g de peito de frango cozido desfiado temperado",
+   "200g de milho — ou 1 lata",
+   "Azeitonas a gosto",
+   "4 col. de sopa de requeijão light — ou 120g"
+  ],
+  "modo": [
+   "Em formas de silicone, forre o fundo com 30g da massa, adicione cerca de 30g de frango e 15g de requeijão em cada.",
+   "Faça a tampa com cerca de 15g de massa.",
+   "Rende 8 empadas, ou faça uma empada grande e depois divida nas porções.",
+   "Pincele a gema e leve para assar na air fryer a 180 graus por 8 a 10 minutos.",
+   "Separe em porções com duas empadas cada.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567366
+ },
+ {
+  "id": "r34",
+  "titulo": "Empada na Massa de Pastel",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "95 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r34.jpg",
+  "ingredientes": [
+   "1 unidade de massa de pastel — ou 15g",
+   "1 col. de sopa de frango desfiado temperado — ou 20g",
+   "1 col. de café de requeijão light — ou 10g",
+   "¼ de queijo muçarela — ou 5g"
+  ],
+  "modo": [
+   "Forre forminhas de silicone com a massa de pastel.",
+   "Recheie com o frango, o requeijão e os temperos.",
+   "Finalize com o queijo muçarela e asse por 6 minutos na air fryer ou 15 minutos no forno a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567372
+ },
+ {
+  "id": "r35",
+  "titulo": "Esfirra de Batata com Carne",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "",
+  "ingredientes": [
+   "💡 Dica opcional: Coloque a carne moída temperada sobre a massa pré- assada e congele com ela crua — na hora de consumir ela fica mais suculenta. 500g de batata inglesa cozida",
+   "3 col. de sopa de farinha de aveia — ou 60g",
+   "2 col. de sopa cheias de farinha de milho — ou 30g",
+   "500g de carne moída magra crua",
+   "Cebola a gosto",
+   "Tomate a gosto",
+   "Cebolinha a gosto",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Cozinhe as batatas no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha de aveia e ajuste o sal.",
+   "Divida em 10 unidades de 60g cada.",
+   "Empane cada unidade na farinha de milho e abra no formato de esfirra.",
+   "Pré-asse por cerca de 20 minutos em forno pré-aquecido a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias L A N C H E S S A L G A D O S",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567378
+ },
+ {
+  "id": "r36",
+  "titulo": "Esfirra de Batata com Ricota e Espinafre",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r36.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Bata a ricota e o espinafre no processador até formar uma pasta, ajuste o sal e coloque sobre as massas já pré-assadas. Congele e aqueça só na hora de consumir. 500g de batata inglesa cozida",
+   "3 col. de sopa de farinha de aveia — ou 60g",
+   "2 col. de sopa cheias de farinha de milho — ou 30g",
+   "300g de ricota fresca",
+   "Espinafre à vontade",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Cozinhe as batatas no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha de aveia e ajuste o sal.",
+   "Divida em 10 unidades de 60g cada.",
+   "Empane cada unidade na farinha de milho e abra no formato de esfirra.",
+   "Asse por cerca de 20 minutos em forno pré-aquecido a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias L A N C H E S S A L G A D O S",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567386
+ },
+ {
+  "id": "r37",
+  "titulo": "Hamburgão",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r37.jpg",
+  "ingredientes": [
+   "130g de carne moída magra crua (patinho, coxão mole ou músculo)",
+   "2 unidades de massa de pastel — ou 30g",
+   "1 col. de sopa de requeijão light",
+   "Tomate a gosto",
+   "1 fatia de queijo muçarela — ou 20g",
+   "Orégano a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Tempere a carne moída crua com sal e pimenta-do-reino a gosto e molde o hambúrguer.",
+   "Aqueça uma frigideira e sele o hambúrguer dos dois lados.",
+   "Para a montagem, abra uma massa de pastel e coloque o hambúrguer selado por cima, rodelas de tomate a gosto e uma fatia de queijo muçarela dobrada.",
+   "Adicione o requeijão e cubra com a segunda massa de pastel, grudando as laterais na massa da base.",
+   "Pincele gema de ovo para dourar e finalize com orégano a gosto.",
+   "Armazene no freezer e prepare no forno ou air fryer por cerca de 30 minutos a 160 graus na hora de consumir.",
+   "Conservação Congelador: até 30 dias; Geladeira: não recomendado L A N C H E S S A L G A D O S"
+  ],
+  "criadoEm": 1788134567394
+ },
+ {
+  "id": "r38",
+  "titulo": "Mini Pizza de Abóbora com Frango",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "90 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r38.jpg",
+  "ingredientes": [
+   "300g de abóbora cabotiá cozida",
+   "4 col. de sopa cheias de farinha de aveia — ou 50g",
+   "240g de frango desfiado cozido temperado",
+   "2 col. de sopa de requeijão light — ou 60g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Cozinhe a abóbora no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha de aveia e ajuste o sal.",
+   "Divida em 8 unidades de 40g cada e abra no formato de mini pizza com a ajuda de um molde ou copo.",
+   "Asse por cerca de 20 minutos em forno pré-aquecido a 180 graus.",
+   "Finalize com o recheio de frango e requeijão.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567401
+ },
+ {
+  "id": "r39",
+  "titulo": "Mini Pizza de Abóbora Marguerita",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "97 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r39.jpg",
+  "ingredientes": [
+   "300g de abóbora cabotiá cozida",
+   "4 col. de sopa cheias de farinha de aveia — ou 60g",
+   "4 fatias de queijo muçarela — ou 80g",
+   "Tomate cereja à vontade",
+   "Manjericão à vontade",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Cozinhe a abóbora no micro-ondas ou vapor e amasse.",
+   "Misture com a farinha de aveia e ajuste o sal.",
+   "Divida em 8 unidades de 40g cada e abra no formato de mini pizza com a ajuda de um molde ou copo.",
+   "Asse por cerca de 20 minutos em forno pré-aquecido a 180 graus.",
+   "Finalize com o queijo muçarela e o tomate cereja.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567407
+ },
+ {
+  "id": "r40",
+  "titulo": "Pão com Carne Express",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "322 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r40.jpg",
+  "ingredientes": [
+   "500g de carne moída magra crua",
+   "6 unidades de pão francês — ou 300g",
+   "100g de milho e ervilha",
+   "3 col. de sopa de passata de tomate — ou 45g",
+   "3 fatias de queijo muçarela — ou 60g",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Refogue a carne moída até ficar cozida e acrescente o milho, a ervilha e a passata de tomate.",
+   "Corte o pão ao meio e abra espaço para rechear com a carne moída.",
+   "Finalize com meia fatia de queijo muçarela em cada pão.",
+   "Conservação Congelador: 30 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567413
+ },
+ {
+  "id": "r41",
+  "titulo": "Pão de Atum",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "298 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r41.jpg",
+  "ingredientes": [
+   "6 unidades de pão francês — ou 300g",
+   "2 latas de atum ao natural — ou 240g",
+   "2 tomates picados",
+   "1 cenoura média ralada",
+   "2 col. de sopa de requeijão light — ou 60g",
+   "Tempero verde a gosto",
+   "Sal a gosto",
+   "3 fatias de queijo muçarela — ou 60g"
+  ],
+  "modo": [
+   "Misture o atum, os vegetais e o requeijão até formar uma pasta.",
+   "Distribua a mistura para os 6 pães.",
+   "Finalize com meia fatia de queijo muçarela em cada pão.",
+   "Prepare no forno ou air fryer.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567420
+ },
+ {
+  "id": "r42",
+  "titulo": "Pão de Batata Recheado",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "95 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r42.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "250g de batata cozida",
+   "30g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "200g de carne moída cozida",
+   "Sal a gosto",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Misture a batata amassada, a farinha, o ovo e o fermento até formar uma massa para modelar.",
+   "Divida a massa em 8 porções e modele com as mãos.",
+   "Recheie cada unidade com cerca de 25g de carne moída.",
+   "Feche formando uma trouxinha e finalize como preferir, pincelando gema, azeite ou com sementes.",
+   "Asse em forno pré-aquecido por 20 a 25 minutos a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567426
+ },
+ {
+  "id": "r43",
+  "titulo": "Pão de Queijo para Congelar",
+  "tempo": "",
+  "porcoes": "3",
+  "calorias": "322 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r43.jpg",
+  "ingredientes": [
+   "4 ovos",
+   "80g de goma de tapioca",
+   "3 fatias de queijo muçarela — ou 60g",
+   "2 col. de sopa cheias de creme de ricota light — ou 60g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes e distribua em 6 forminhas de silicone.",
+   "Finalize adicionando meia fatia de queijo muçarela — cerca de 10g — em cada forminha.",
+   "Leve para congelar e depois separe em 3 porções de 2 forminhas cada.",
+   "Cozinhe na frigideira com duas grades do fogão em fogo baixo.",
+   "Conservação Congelador: 30 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567440
+ },
+ {
+  "id": "r44",
+  "titulo": "Pastel Assado de Carne",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "348 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r44.jpg",
+  "ingredientes": [
+   "1 massa fresca de lasanha — ou 50g",
+   "100g de patinho moído cozido temperado",
+   "Gema de ovo para pincelar a gosto"
+  ],
+  "modo": [
+   "Abra a massa de lasanha, recheie com a carne e feche as bordas com um garfo.",
+   "Mantenha o plástico envolto na massa na hora de armazenar e passe plástico filme para embalar por completo.",
+   "Conservação Congelador: 30 a 60 dias; Geladeira: não recomendado",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567447
+ },
+ {
+  "id": "r45",
+  "titulo": "Pastel Assado de Frango",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "340 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r45.jpg",
+  "ingredientes": [
+   "1 massa fresca de lasanha — ou 50g",
+   "120g de peito de frango desfiado temperado",
+   "1 col. de sopa de requeijão light — ou 30g"
+  ],
+  "modo": [
+   "Abra a massa de lasanha, recheie com o frango e o requeijão.",
+   "Feche as bordas com um garfo.",
+   "Mantenha o plástico envolto na massa na hora de armazenar e passe plástico filme para embalar por completo.",
+   "Conservação Congelador: 30 a 60 dias; Geladeira: não recomendado",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567453
+ },
+ {
+  "id": "r46",
+  "titulo": "Pizza de Aveia",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "293 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r46.jpg",
+  "ingredientes": [
+   "8 col. de sopa de aveia em flocos — ou 80g",
+   "4 ovos",
+   "50ml de água",
+   "Sal a gosto",
+   "8 col. de sopa de passata de tomate — ou 120g",
+   "240g de frango desfiado cozido temperado",
+   "2 fatias de queijo muçarela — ou 40g"
+  ],
+  "modo": [
+   "Misture a aveia, os ovos, a água e o sal no processador ou liquidificador.",
+   "Faça 4 panquecas na frigideira e finalize cobrindo cada uma com passata, ¼ do frango desfiado e ¼ do queijo muçarela.",
+   "Armazene em sacos zip ou sacos para freezer.",
+   "Conservação Congelador: 30 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567459
+ },
+ {
+  "id": "r47",
+  "titulo": "Salgado com Massa de Iogurte",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "236 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r47.jpg",
+  "ingredientes": [
+   "150g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "150g de carne moída de patinho temperada cozida",
+   "1 col. de sopa de creme de ricota light — ou 30g",
+   "3 col. de sopa de passata de tomate — ou 45g",
+   "Sal a gosto",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Misture a farinha, o iogurte e o sal até formar a massa.",
+   "Divida em 4 partes e recheie com a carne misturada no creme de ricota e passata.",
+   "Doure na frigideira dos dois lados.",
+   "Embrulhe em papel alumínio e congele por até 30 dias.",
+   "Para consumir, asse por 6 minutos na air fryer ou 15 a 20 minutos no forno a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567465
+ },
+ {
+  "id": "r48",
+  "titulo": "Salgado de Abóbora",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "74 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r48.jpg",
+  "ingredientes": [
+   "200g de abóbora cozida",
+   "150g de frango moído temperado cru",
+   "3 col. de sopa de flocão de milho — ou 30g",
+   "2 fatias de queijo muçarela — ou 40g"
+  ],
+  "modo": [
+   "Misture a abóbora cozida e amassada com o frango.",
+   "Faça 8 bolinhas, recheie cada uma com 5g de queijo muçarela e empane no flocão de milho.",
+   "Asse na air fryer por 10 minutos a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567471
+ },
+ {
+  "id": "r49",
+  "titulo": "Salgado de Frango",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "186 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r49.jpg",
+  "ingredientes": [
+   "200g de massa de pastel",
+   "200g de frango desfiado temperado",
+   "3 fatias de queijo muçarela — ou 60g"
+  ],
+  "modo": [
+   "Em uma unidade de massa de pastel, coloque cerca de 30g de frango e meia fatia de queijo muçarela.",
+   "Cubra com mais uma massa de pastel e pincele gema, azeite ou água e sementes (gergelim, chia, linhaça).",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567479
+ },
+ {
+  "id": "r50",
+  "titulo": "Sanduíche de Atum",
+  "tempo": "",
+  "porcoes": "3",
+  "calorias": "393 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r50.jpg",
+  "ingredientes": [
+   "2 latas de atum ao natural — ou 240g",
+   "6 fatias de pão de forma — ou 300g",
+   "3 col. de sopa de maionese light — ou 36g",
+   "1 cenoura média ralada",
+   "Tempero verde a gosto",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture o atum com os demais ingredientes até formar uma pasta homogênea e distribua em 3 porções.",
+   "Embale no plástico filme ou em sacos zip lock.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567485
+ },
+ {
+  "id": "r51",
+  "titulo": "Sanduíche de Frango",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "375 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r51.jpg",
+  "ingredientes": [
+   "8 fatias de pão de forma — ou 400g",
+   "200g de frango desfiado temperado",
+   "2 col. de sopa de milho — ou 30g",
+   "3 col. de sopa de creme de ricota light — ou 90g",
+   "1 cenoura média ralada",
+   "Tempero verde a gosto",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture o frango com os demais ingredientes até formar uma pasta homogênea e distribua em 4 porções.",
+   "Embale no papel filme.",
+   "Se congelar, pode descongelar na frigideira ou sanduicheira.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567492
+ },
+ {
+  "id": "r52",
+  "titulo": "Toast de Atum",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "",
+  "ingredientes": [
+   "4 fatias de pão artesano — ou 140g",
+   "2 latas de atum ao natural — ou 240g",
+   "4 col. de sopa de requeijão light — ou 120g",
+   "½ cebola roxa",
+   "½ tomate",
+   "4 fatias de queijo muçarela — ou 80g",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Cebolinha a gosto"
+  ],
+  "modo": [
+   "Despeje a água da lata de atum.",
+   "Em uma vasilha, misture o atum com a cebola e o tomate em cubos, o requeijão e ajuste o sal e pimenta a gosto.",
+   "Finalize o recheio com cebolinha a gosto.",
+   "Monte a toast amassando o pão com uma colher para acomodar o recheio e divida o rendimento sobre os 4 pães.",
+   "Finalize com 1 fatia de queijo muçarela em cada pão.",
+   "Embale no plástico filme e armazene no congelador.",
+   "Na hora de consumir, prepare na air fryer por cerca de 15 a 20 minutos a 160 graus; sem congelar, 5 a 6 minutos a 180 graus.",
+   "Conservação Congelador: até 30 dias; Geladeira: não recomendado — somente no mesmo dia L A N C H E S S A L G A D O S"
+  ],
+  "criadoEm": 1788134567499
+ },
+ {
+  "id": "r53",
+  "titulo": "Toast de Carne",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "210 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r53.jpg",
+  "ingredientes": [
+   "1 fatia de pão artesano — ou 35g",
+   "65g de carne moída magra crua (patinho, coxão mole ou músculo)",
+   "Cebola a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Passata de tomate a gosto",
+   "1 fatia de queijo cheddar light"
+  ],
+  "modo": [
+   "Refogue a carne moída com sal, pimenta e passata de tomate, reduzindo bem para que não solte muita umidade no pão.",
+   "Refogue tiras de cebola em uma frigideira com sal até caramelizar; se pegar no fundo, adicione um pouco de água.",
+   "Monte a toast amassando o pão com uma colher para acomodar o recheio, adicione a carne moída refogada, a cebola caramelizada e finalize com 1 fatia de queijo cheddar light.",
+   "Se fizer em quantidade, embale no plástico filme e armazene no congelador.",
+   "Na hora de consumir, prepare na air fryer por cerca de 15 a 20 minutos a 160 graus; sem congelar, 5 a 6 minutos a 180 graus.",
+   "Conservação Congelador: até 30 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567505
+ },
+ {
+  "id": "r54",
+  "titulo": "Toast de Frango",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "298 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r54.jpg",
+  "ingredientes": [
+   "300g de peito de frango desfiado cozido temperado",
+   "6 fatias de pão de forma — ou 300g",
+   "2 col. de sopa de requeijão light — ou 60g",
+   "6 fatias de queijo muçarela — ou 120g",
+   "Sal a gosto",
+   "Pimenta a gosto",
+   "Orégano a gosto"
+  ],
+  "modo": [
+   "Amasse o centro do pão de forma com uma colher e passe o requeijão.",
+   "Adicione cerca de 50g de frango desfiado sobre cada pão.",
+   "Finalize com o queijo muçarela e orégano.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567512
+ },
+ {
+  "id": "r55",
+  "titulo": "Torta Cremosa de Frango",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "379 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r55.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "100ml de leite desnatado",
+   "4 col. de sopa de farinha de aveia — ou 40g",
+   "60g de frango desfiado cozido",
+   "1 col. de café de fermento químico — ou 2g",
+   "1 col. de sopa de requeijão light — ou 30g",
+   "Sal a gosto",
+   "Pimenta a gosto",
+   "Orégano a gosto"
+  ],
+  "modo": [
+   "Misture os ingredientes direto no pote de marmita.",
+   "Finalize com o requeijão e orégano por cima e leve para assar em forno pré-aquecido a 180 graus por 30 a 40 minutos.",
+   "Na hora de consumir, reaqueça no micro-ondas.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567520
+ },
+ {
+  "id": "r56",
+  "titulo": "Torta Cremosa de Frango com Milho",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r56.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "4 col. de sopa de farinha da sua preferência (aveia, trigo ou arroz) — ou 40g",
+   "50g de milho em conserva",
+   "50ml de leite desnatado",
+   "65g de peito de frango cru",
+   "1 col. de sopa de requeijão light — ou 30g",
+   "½ fatia de queijo muçarela — ou 10g",
+   "1 col. de café de fermento químico — ou 3g",
+   "Sal a gosto",
+   "Orégano a gosto"
+  ],
+  "modo": [
+   "Cozinhe e desfie o frango, temperando a gosto, para render cerca de 50g de frango cozido e desfiado.",
+   "Em um pote de marmita que possa ir ao forno, misture o ovo, o leite e o milho e bata com mixer para dissolver o milho na massa.",
+   "Misture com a farinha, ajuste o sal e finalize com o fermento.",
+   "Coloque ½ fatia de queijo muçarela dentro da massa e distribua o requeijão light na parte superior.",
+   "Finalize com orégano e asse em forno pré-aquecido a 180 graus por 30 a 40 minutos.",
+   "Após fria, tampe e armazene na geladeira ou congele.",
+   "Na hora de consumir, descongele no micro-ondas por cerca de 5 minutos ou reaqueça na air fryer por 5 a 10 minutos a 180 graus.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias L A N C H E S S A L G A D O S"
+  ],
+  "criadoEm": 1788134567528
+ },
+ {
+  "id": "r57",
+  "titulo": "Torta de Atum na Marmita",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "305 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r57.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "2 col. de sopa cheias de atum — ou 30g",
+   "1 col. de sopa de requeijão light — ou 30g",
+   "2 col. de sopa de farinha de aveia — ou 20g",
+   "1 fatia de queijo muçarela — ou 20g",
+   "1 col. de café de fermento químico — ou 2g",
+   "Tomate picado a gosto",
+   "Cebolinha a gosto",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes dentro de um refratário que possa ir ao forno.",
+   "Finalize com o queijo muçarela para gratinar.",
+   "Asse por cerca de 30 minutos em forno pré-aquecido a 180 graus.",
+   "Reaqueça no micro-ondas ou air fryer na hora de consumir.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567533
+ },
+ {
+  "id": "r58",
+  "titulo": "Torta de Frango na Marmita",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "286 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r58.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "80g de frango desfiado temperado",
+   "2 col. de sopa de goma de tapioca — ou 20g",
+   "1 col. de café de requeijão light — ou 10g",
+   "1 col. de café de fermento químico — ou 2g",
+   "Sal a gosto",
+   "Tempero verde a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes dentro do pote de marmita e leve para assar em forno pré-aquecido por cerca de 20 a 25 minutos a 180 graus.",
+   "Pode finalizar com queijo muçarela ou parmesão ralado, se preferir.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567540
+ },
+ {
+  "id": "r59",
+  "titulo": "Tortilha de Carne",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "306 kcal",
+  "categoria": "Lanches Salgados",
+  "fit": true,
+  "emoji": "🥪",
+  "imagem": "imagens/importadas/r59.jpg",
+  "ingredientes": [
+   "600g de carne moída magra crua (patinho, músculo ou acém)",
+   "6 tortilhas — pão sírio ou rap",
+   "Chimichurri a gosto",
+   "Páprica a gosto",
+   "Sal a gosto",
+   "Pimenta a gosto"
+  ],
+  "modo": [
+   "Tempere a carne moída crua, divida em 6 partes e espalhe sobre as tortilhas.",
+   "Embale em sacos zip ou sacos para freezer.",
+   "Asse por 6 a 10 minutos na air fryer ou na frigideira até dourar.",
+   "Conservação Congelador: 30 a 60 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567546
+ },
+ {
+  "id": "r60",
+  "titulo": "Bolo Ana Maria",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "137 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r60.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "100g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "40g de chocolate meio amargo",
+   "Adoçante a gosto",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em uma vasilha.",
+   "Distribua em formas de silicone.",
+   "Leve para assar por 20 a 25 minutos a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567553
+ },
+ {
+  "id": "r61",
+  "titulo": "Bolo Chocolatudo",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "183 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r61.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "3 col. de sopa de farinha de aveia ou trigo — ou 30g",
+   "3 col. de sopa cheias de cacau em pó 50% — ou 30g",
+   "3 col. de sopa de iogurte natural desnatado — ou 60g",
+   "Adoçante a gosto",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "300ml de leite desnatado",
+   "3 col. de sopa de cacau em pó 50% — ou 30g"
+  ],
+  "modo": [
+   "Misture os ingredientes e asse por 25 minutos a 180 graus.",
+   "Cozinhe a mistura da calda no fogo até reduzir.",
+   "Divida em 4 partes e sirva gelado com a calda.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567558
+ },
+ {
+  "id": "r62",
+  "titulo": "Bolo com Creme de Ninho e Chocolate Branco",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "214 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r62.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "50g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "Adoçante a gosto",
+   "70g de leite em pó desnatado",
+   "50ml de leite desnatado",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "2 potes de iogurte grego zero açúcar — ou 200g",
+   "30g de chocolate branco"
+  ],
+  "modo": [
+   "Para a massa, misture os ovos, farinha, 30g de leite em pó, leite e fermento.",
+   "Leve para assar em forma untada em forno pré-aquecido a 180 graus por cerca de 30 minutos.",
+   "Para o recheio, misture o chocolate derretido, iogurte e 20g de leite em pó.",
+   "Divida o bolo ao meio, coloque o recheio e polvilhe 20g de leite em pó por cima.",
+   "Divida em 4 porções iguais.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 dias"
+  ],
+  "criadoEm": 1788134567563
+ },
+ {
+  "id": "r63",
+  "titulo": "Bolo Crocante",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r63.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "3 col. de sopa de iogurte natural desnatado — ou 60g",
+   "1 col. de sopa de mel — ou 20g",
+   "45g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "3 col. de sopa de cacau em pó 50% — ou 30g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Essência de baunilha a gosto",
+   "Canela em pó a gosto",
+   "Cravo em pó a gosto",
+   "50g de chocolate derretido",
+   "40g de flocos de milho",
+   "30g de whey de chocolate ou leite em pó desnatado",
+   "100ml de leite desnatado"
+  ],
+  "modo": [
+   "Misture os ingredientes da massa e leve para assar em forno pré- aquecido a 180 graus por 25 a 30 minutos.",
+   "Para molhar o bolo, misture o leite desnatado com o whey ou leite em pó.",
+   "Misture o chocolate derretido com os flocos de milho até envolver bem e manter os flocos crocantes.",
+   "Divida em 4 pedaços.",
+   "B O L O S S A U D Á V E I S"
+  ],
+  "criadoEm": 1788134567568
+ },
+ {
+  "id": "r64",
+  "titulo": "Bolo de Banana com Chocolate",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "220 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r64.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "1 banana bem madura — ou 50g",
+   "2 col. de sopa cheias de cacau em pó 50% — ou 20g",
+   "1 col. de café de fermento químico — ou 2g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes e despeje em uma vasilha untada.",
+   "Leve para assar em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567574
+ },
+ {
+  "id": "r65",
+  "titulo": "Bolo de Banana na Marmita",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "261 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r65.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "20g de aveia em flocos — ou 2 col. de sopa",
+   "1 banana bem madura — ou 50g",
+   "1 col. de café de gotas de chocolate — ou 5g",
+   "1 col. de café de fermento químico — ou 2g",
+   "1 col. de café de mel — ou 5g"
+  ],
+  "modo": [
+   "Misture os ingredientes e despeje em uma vasilha untada.",
+   "Leve para assar em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Finalize com o mel.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567579
+ },
+ {
+  "id": "r66",
+  "titulo": "Bolo de Banana Prático",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "244 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r66.jpg",
+  "ingredientes": [
+   "1 banana amassada — ou 50g",
+   "1 ovo",
+   "2 col. de sopa de farelo de aveia — ou 20g",
+   "1 col. de café de canela em pó — ou 2g",
+   "1 col. de café de fermento químico — ou 2g",
+   "1 col. de chá de doce de leite — ou 10g"
+  ],
+  "modo": [
+   "Misture os ingredientes em um pote e finalize com rodelas de banana e doce de leite.",
+   "Asse no forno por 20 a 25 minutos, espere esfriar e armazene em potes herméticos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567585
+ },
+ {
+  "id": "r67",
+  "titulo": "Bolo de Caneca",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "214 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r67.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "1 col. de sopa de doce de leite — ou 20g",
+   "2 col. de sopa de farinha de aveia — ou 20g",
+   "Essência de baunilha a gosto",
+   "1 col. de chá de fermento químico — ou 4g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes dentro de uma caneca e leve para assar no micro-ondas por 1 minuto e 30 segundos."
+  ],
+  "criadoEm": 1788134567589
+ },
+ {
+  "id": "r68",
+  "titulo": "Bolo de Cenoura",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "290 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r68.jpg",
+  "ingredientes": [
+   "1 ovo",
+   "80g ou ½ de cenoura crua",
+   "2 col. de sopa de farinha de aveia — ou 20g",
+   "1 col. de sopa cheia de iogurte natural desnatado — ou 20g",
+   "Adoçante a gosto",
+   "1 col. de café de fermento químico — ou 2g",
+   "10g de whey ou leite em pó desnatado",
+   "10g de cacau em pó 50%",
+   "Leite desnatado a gosto",
+   "5g de chocolate ralado"
+  ],
+  "modo": [
+   "Bata a cenoura com os líquidos.",
+   "Junte com os secos e despeje em uma vasilha untada.",
+   "Asse por 20 a 25 minutos a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567594
+ },
+ {
+  "id": "r69",
+  "titulo": "Bolo de Chocolate com Maracujá",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "289 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r69.jpg",
+  "ingredientes": [
+   "4 ovos",
+   "4 col. de sopa cheias de cacau em pó 50% — ou 40g",
+   "8 col. de sopa de farinha de aveia — ou 80g",
+   "4 col. de sopa de iogurte natural desnatado — ou 80g",
+   "4 col. de café de fermento químico — ou 8g",
+   "1 polpa de maracujá",
+   "30g de whey ou leite em pó desnatado",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "70ml de água quente"
+  ],
+  "modo": [
+   "Divida os ingredientes em 4 vasilhas de vidro, misture tudo e leve para assar em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Bata os ingredientes da cobertura em um processador e distribua sobre os bolos já assados.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567598
+ },
+ {
+  "id": "r70",
+  "titulo": "Bolo de Iogurte e Uva",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "111 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r70.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "60g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "1 xícara de uva — ou 1 cacho médio",
+   "Essência de baunilha a gosto",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "2 col. de sopa de geleia de fruta — ou 40g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes e despeje em uma assadeira untada.",
+   "Leve para assar em forno pré-aquecido a 180 graus por 30 minutos.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567605
+ },
+ {
+  "id": "r71",
+  "titulo": "Bolo de Maçã",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "139 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r71.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "2 maçãs pequenas ou 1 grande",
+   "2 col. de sopa rasas de azeite — ou 20ml",
+   "50g de uva passa hidratada",
+   "1 xícara de chá de farinha de aveia — ou 50g",
+   "1 col. de sopa de canela — ou 8g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Essência de baunilha a gosto"
+  ],
+  "modo": [
+   "Triture as maçãs com os ovos, o azeite e a uva passa em um processador ou liquidificador.",
+   "Misture a massa triturada com os secos e coloque em forminhas de silicone, dividindo em 6 bolinhos ou em 1 bolo grande.",
+   "Asse em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567610
+ },
+ {
+  "id": "r72",
+  "titulo": "Bolo de Maçã Versão Grande",
+  "tempo": "",
+  "porcoes": "10",
+  "calorias": "99 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r72.jpg",
+  "ingredientes": [
+   "4 ovos",
+   "2 maçãs médias em rodelas",
+   "100g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "50g de uva passa hidratada em água quente",
+   "1 col. de sopa de canela em pó — ou 8g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Essência de baunilha a gosto"
+  ],
+  "modo": [
+   "Fatie as maçãs em rodelas finas.",
+   "Hidrate a uva passa em água e bata no mixer até virar uma pasta.",
+   "Junte com os ovos, a farinha, a canela e o fermento.",
+   "Envolva a massa nas maçãs, despeje sobre uma forma untada e leve para assar em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Separe em 10 fatias e congele ou consuma ao longo da semana.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567614
+ },
+ {
+  "id": "r73",
+  "titulo": "Bolo de Maracujá",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "296 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r73.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "1 polpa de maracujá",
+   "3 col. de sopa rasa de azeite de oliva — ou cerca de 30ml",
+   "150g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "Adoçante a gosto",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Bata os ovos, a polpa e o azeite no mixer ou liquidificador.",
+   "Misture com os secos e despeje a massa em uma forma untada.",
+   "Asse por 30 a 40 minutos a 180 graus.",
+   "Divida em 4 porções para consumir.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567621
+ },
+ {
+  "id": "r74",
+  "titulo": "Bolo de Milho",
+  "tempo": "",
+  "porcoes": "3",
+  "calorias": "244 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r74.jpg",
+  "ingredientes": [
+   "200g de milho — ou 1 lata",
+   "3 ovos",
+   "100ml de leite de coco",
+   "4 col. de sopa de farinha de milho — ou 40g",
+   "Adoçante a gosto",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "No mixer, misture o milho e os líquidos.",
+   "Junte com os secos e despeje em uma vasilha untada.",
+   "Leve para assar por 20 a 25 minutos a 180 graus.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567626
+ },
+ {
+  "id": "r75",
+  "titulo": "Bolo de Milho com Banana",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "153 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r75.jpg",
+  "ingredientes": [
+   "6 col. de sopa de flocão de milho — ou 60g",
+   "3 ovos",
+   "3 bananas bem maduras — ou 150g",
+   "50g de goiabada",
+   "50g de queijo minas",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Hidrate o flocão de milho com cerca de 100ml de água e reserve por 10 minutos.",
+   "Misture junto os ovos, as bananas amassadas e o fermento.",
+   "Divida em forminhas de silicone e finalize colocando pedaços de queijo e goiabada entre a massa.",
+   "Leve para assar em forno pré-aquecido a 180 graus por cerca de 30 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567631
+ },
+ {
+  "id": "r76",
+  "titulo": "Bolo de Ninho Gelado",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "173 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r76.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "3 col. de sopa de farinha de aveia ou trigo — ou 30g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "3 col. de sopa de iogurte natural desnatado — ou 60g",
+   "Adoçante a gosto",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "2 potes de iogurte grego zero açúcar — ou 200g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "10g de leite em pó desnatado para polvilhar por cima de cada fatia"
+  ],
+  "modo": [
+   "Misture os ingredientes e asse por 25 minutos a 180 graus.",
+   "Corte ao meio e recheie com a cobertura.",
+   "Divida em 4 partes, polvilhe o leite em pó, embrulhe no alumínio e sirva gelado.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567637
+ },
+ {
+  "id": "r77",
+  "titulo": "Bolo no Pote — Abacaxi com Coco",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "254 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r77.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "60g de coco ralado ou farinha de aveia",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "30g de whey ou leite em pó desnatado",
+   "30g de leite em pó desnatado (a mais)",
+   "70ml de água quente",
+   "200g de abacaxi cozido com adoçante a gosto"
+  ],
+  "modo": [
+   "Misture o ovo, iogurte, farinha e fermento para a massa e distribua sobre uma forma untada.",
+   "Asse por cerca de 15 minutos.",
+   "Cozinhe o abacaxi na frigideira com adoçante.",
+   "Misture o whey com o leite em pó e bata com água quente até ficar cremoso.",
+   "Divida em 4 partes, montando as camadas com bolo, creme e abacaxi.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567643
+ },
+ {
+  "id": "r78",
+  "titulo": "Bolo de Pote — Chocolate com Morango",
+  "tempo": "",
+  "porcoes": "2",
+  "calorias": "279 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r78.jpg",
+  "ingredientes": [
+   "4 col. de sopa cheias de farinha de aveia ou trigo — ou 40g",
+   "3 col. de sopa de cacau em pó 50% — ou 30g",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "4 col. de sopa de leite desnatado — ou 60ml",
+   "30g de whey ou leite em pó desnatado",
+   "10g de leite em pó desnatado",
+   "3 morangos grandes em pedaços"
+  ],
+  "modo": [
+   "Asse a massa no micro-ondas por cerca de 2 a 3 minutos.",
+   "Esfarele e divida em dois potes, intercalando massa e recheio.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567648
+ },
+ {
+  "id": "r79",
+  "titulo": "Bolo de Pote — Ninho com Morango",
+  "tempo": "",
+  "porcoes": "3",
+  "calorias": "295 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r79.jpg",
+  "ingredientes": [
+   "3 ovos",
+   "3 col. de sopa cheias de farinha de aveia ou trigo — ou 45g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "3 col. de sopa de iogurte natural desnatado — ou 60g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Adoçante a gosto",
+   "100g de leite em pó desnatado",
+   "Água até dar ponto",
+   "5 a 6 morangos grandes em pedaços"
+  ],
+  "modo": [
+   "Divida a massa em 6 forminhas de silicone ou asse um bolo grande e divida em 6 pedaços.",
+   "Se assar na air fryer em forminhas, asse por cerca de 6 minutos a 180 graus.",
+   "Esfarele cada porção em um pote e intercale com o recheio.",
+   "Finalize com leite em pó polvilhado e mais morangos, se preferir.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567654
+ },
+ {
+  "id": "r80",
+  "titulo": "Bolinho de Leite em Pó",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "153 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r80.jpg",
+  "ingredientes": [
+   "150g de leite em pó desnatado",
+   "3 ovos",
+   "1 col. de chá de fermento químico — ou 4g",
+   "Essência de baunilha a gosto",
+   "30g de chocolate da sua preferência"
+  ],
+  "modo": [
+   "Misture o leite em pó com os ovos e o fermento; se necessário, adicione um pouco de água ou leite.",
+   "Distribua em 6 forminhas de silicone e adicione um quadrado de chocolate para rechear cada um.",
+   "Asse em forno pré-aquecido a 180 graus por cerca de 20 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567659
+ },
+ {
+  "id": "r81",
+  "titulo": "Muffins de Banana",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "108 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r81.jpg",
+  "ingredientes": [
+   "3 bananas — ou 150g",
+   "3 ovos",
+   "60g de farelo de aveia",
+   "1 col. de sopa de canela em pó — ou 8g",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Amasse as bananas e misture com os ovos e os secos.",
+   "Coloque em forminhas de silicone e asse em forno pré-aquecido a 180 graus por 20 a 25 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567663
+ },
+ {
+  "id": "r82",
+  "titulo": "Muffins de Banana com Abóbora",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "86 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r82.jpg",
+  "ingredientes": [
+   "1 banana — ou 50g",
+   "100g de abóbora cozida",
+   "1 ovo",
+   "4 col. de sopa de farelo de aveia — ou 40g",
+   "Canela a gosto",
+   "1 col. de chá de fermento químico — ou 4g"
+  ],
+  "modo": [
+   "Amasse a banana e a abóbora e misture com os demais ingredientes.",
+   "Divida em 4 forminhas ou faça um bolo grande e finalize com sementes ou nuts.",
+   "Asse em forno pré-aquecido a 180 graus por cerca de 20 minutos ou até dourar.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567669
+ },
+ {
+  "id": "r83",
+  "titulo": "Muffins de Morango",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "100 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "imagens/importadas/r83.jpg",
+  "ingredientes": [
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "2 ovos",
+   "80g de farinha da sua preferência (aveia, arroz ou trigo)",
+   "200g de morango",
+   "40g de chocolate meio amargo",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "Essência de baunilha a gosto",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em uma vasilha.",
+   "Distribua em formas de silicone.",
+   "Leve para assar por 20 a 25 minutos a 180 graus.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567675
+ },
+ {
+  "id": "r84",
+  "titulo": "Pão de Mel",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "129 kcal",
+  "categoria": "Bolos Saudáveis",
+  "fit": true,
+  "emoji": "🍰",
+  "imagem": "",
+  "ingredientes": [
+   "3 ovos",
+   "3 col. de sopa de farinha de aveia — ou 30g",
+   "3 col. de sopa de cacau em pó 50% — ou 30g",
+   "1 col. de sopa de mel — ou 20g",
+   "3 col. de sopa de iogurte natural desnatado — ou 60g",
+   "1 col. de café de canela em pó — ou 2g",
+   "1 col. de café de cravo em pó — ou 2g",
+   "1 col. de sopa de fermento químico — ou 10g",
+   "3 col. de sopa de doce de leite — ou 60g"
+  ],
+  "modo": [
+   "Misture os ingredientes e despeje em 6 forminhas de silicone ou faça um bolo grande e divida em 6 porções.",
+   "Asse em forno pré-aquecido a 180 graus por 20 a 25 minutos ou air fryer a 160 graus por 6 a 10 minutos.",
+   "Espere esfriar e recheie com o doce de leite.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567680
+ },
+ {
+  "id": "r85",
+  "titulo": "Aveia Adormecida",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "219 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r85.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Sirva com 30g de whey ou leite em pó desnatado para uma versão ainda mais proteica. 2 potes de iogurte natural desnatado — ou 320g",
+   "4 col. de sopa de aveia em flocos — ou 40g",
+   "4 col. de sopa de chia — ou 40g",
+   "400g de frutas da sua preferência",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Misture o iogurte, a aveia e a chia.",
+   "Divida em 4 potes e finalize com as frutas picadas por cima.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567688
+ },
+ {
+  "id": "r86",
+  "titulo": "Aveia Adormecida Tiramisù",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "273 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r86.jpg",
+  "ingredientes": [
+   "2 col. de sopa de aveia em flocos — ou 20g",
+   "1 col. de sopa de chia — ou 10g",
+   "1 col. de sopa cheia de cacau em pó 50% — ou 10g",
+   "45ml de leite desnatado",
+   "1 col. de café de café solúvel diluído em um pouco de água — ou 2g",
+   "10g de whey ou leite em pó desnatado",
+   "Adoçante a gosto",
+   "1 pote de iogurte grego zero açúcar — ou 100g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes em uma vasilha com tampa.",
+   "Finalize com o iogurte grego por cima e polvilhe cacau em pó.",
+   "Reserve na geladeira de um dia para o outro até ficar consistente e super cremoso.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567693
+ },
+ {
+  "id": "r87",
+  "titulo": "Barra de Cereal",
+  "tempo": "",
+  "porcoes": "14",
+  "calorias": "94 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r87.jpg",
+  "ingredientes": [
+   "6 bananas bem maduras — ou 300g",
+   "200g de aveia em flocos",
+   "40g de chocolate meio amargo"
+  ],
+  "modo": [
+   "Amasse as bananas e misture com a aveia até formar uma massa.",
+   "Espalhe em assadeira untada e corte em 14 unidades antes de assar.",
+   "Asse em forno a 200 graus por 30 a 40 minutos.",
+   "Finalize com o chocolate derretido por cima.",
+   "Conservação Congelador: 30 a 60 dias; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567699
+ },
+ {
+  "id": "r88",
+  "titulo": "Bombom de Morango",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "176 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r88.jpg",
+  "ingredientes": [
+   "4 potes de iogurte grego zero açúcar — ou 400g",
+   "2 potes de iogurte natural desnatado — ou 320g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "50g de chocolate meio amargo / ao leite",
+   "1 col. de sopa cheia de cacau em pó 50% — ou 10g",
+   "1 bandeja de morango — ou 200g"
+  ],
+  "modo": [
+   "Prepare o creme branco misturando iogurte grego e o leite em pó.",
+   "Para o creme de chocolate, misture iogurte natural e o cacau.",
+   "Monte 4 porções com morango, intercalando os cremes e finalize com o chocolate derretido.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567704
+ },
+ {
+  "id": "r89",
+  "titulo": "Bombom de Uva",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "257 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r89.jpg",
+  "ingredientes": [
+   "4 potes de iogurte grego zero açúcar — ou 400g",
+   "2 potes de iogurte natural desnatado — ou 320g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "25g de chocolate branco",
+   "25g de chocolate meio amargo",
+   "1 col. de sopa de cacau em pó 50% — ou 10g",
+   "400g de uva verde"
+  ],
+  "modo": [
+   "Prepare o creme branco misturando iogurte grego, leite em pó e chocolate branco derretido.",
+   "Para o creme de chocolate, misture iogurte natural, cacau e chocolate meio amargo derretido.",
+   "Monte 4 porções com uvas, intercalando os dois cremes.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567709
+ },
+ {
+  "id": "r90",
+  "titulo": "Cheesecake na Marmita",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "303 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r90.jpg",
+  "ingredientes": [
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "1 ovo",
+   "10g de whey ou leite em pó desnatado",
+   "Adoçante a gosto",
+   "Essência de baunilha a gosto",
+   "2 col. de sopa de geleia de fruta — ou 40g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes no pote de marmita até que fique homogêneo.",
+   "Asse em forno pré-aquecido a 200 graus até dourar ou na air fryer por cerca de 10 a 15 minutos.",
+   "Finalize adicionando a geleia por cima.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567714
+ },
+ {
+  "id": "r91",
+  "titulo": "Cheesecake no Pote",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "262 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r91.jpg",
+  "ingredientes": [
+   "1 pote de creme de ricota light / cream cheese light — ou 200g",
+   "200ml de leite desnatado",
+   "Adoçante a gosto",
+   "4 col. de sopa de chia — ou 80g",
+   "4 col. de sopa de granola — ou 80g",
+   "4 col. de sopa de geleia sem açúcar — ou 80g"
+  ],
+  "modo": [
+   "Misture o creme de ricota, o leite, a chia e o adoçante.",
+   "Deixe na geladeira por cerca de 1 a 2 horas até firmar.",
+   "Em potes porcionados, faça as camadas: 1 col. de sopa de granola, ¼ da mistura de chia e 1 col. de sopa de geleia em cada.",
+   "Repita até finalizar.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567720
+ },
+ {
+  "id": "r92",
+  "titulo": "Cocada na Massa de Pastel",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "162 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r92.jpg",
+  "ingredientes": [
+   "4 unidades de massa de pastel — ou 60g",
+   "2 ovos",
+   "3 col. de sopa de coco ralado — ou 30g",
+   "3 col. de sopa de leite de coco light — ou 45ml",
+   "4 col. de sopa de leite em pó desnatado — ou 40g",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Misture todos os ingredientes.",
+   "Divida em 4 forminhas de silicone com a massa de pastel.",
+   "Asse em forno pré-aquecido a 180 graus por 20 minutos.",
+   "Pode congelar já assada.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567725
+ },
+ {
+  "id": "r93",
+  "titulo": "Cocada Sem Açúcar",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "95 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r93.jpg",
+  "ingredientes": [
+   "1 vidro de leite de coco tradicional ou light — ou 200ml",
+   "50g de coco ralado sem açúcar",
+   "5 col. de sopa de leite em pó desnatado — ou 50g",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Em uma panela, misture todos os ingredientes e leve ao fogo médio, mexendo até engrossar.",
+   "Em um prato ou forma untada com plástico filme, divida a massa em 6 unidades no formato de cocada com o auxílio de uma colher.",
+   "Leve para a geladeira por pelo menos 2 horas para firmar.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567730
+ },
+ {
+  "id": "r94",
+  "titulo": "Frutas com Mousse Proteica de Limão",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "144 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r94.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Pode usar as frutas da sua preferência — as listadas são apenas uma sugestão. 500g de uva",
+   "200g de morango",
+   "2 maçãs — ou 260g",
+   "100g de leite em pó desnatado — ou 10 col. de sopa",
+   "2 limões espremidos",
+   "50ml de água quente",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "No liquidificador ou processador, misture o leite em pó, o suco dos 2 limões e 50ml de água quente.",
+   "Bata bem até ficar homogêneo e aerado.",
+   "Corte as frutas em pedaços menores, deixando a maçã por último para que fique em contato com a mousse e não escureça.",
+   "Porcione em 6 potes de vidro, colocando primeiro as frutas e depois a mousse por cima.",
+   "Armazene na geladeira para consumir ao longo da semana.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567735
+ },
+ {
+  "id": "r95",
+  "titulo": "Gelatina Colorida",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "239 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r95.jpg",
+  "ingredientes": [
+   "700ml de leite desnatado",
+   "70g de chia",
+   "Frutas da sua preferência — sugestão: 200g de uva + 200g de morango",
+   "24g de gelatina incolor hidratada",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Misture o leite, a chia e o adoçante.",
+   "Hidrate e derreta a gelatina no micro-ondas ou em banho-maria e despeje sobre a mistura mexendo ao mesmo tempo.",
+   "Finalize adicionando as frutas e leve para a geladeira até firmar.",
+   "Conservação Congelador: não recomendado; Geladeira: 7 dias"
+  ],
+  "criadoEm": 1788134567740
+ },
+ {
+  "id": "r96",
+  "titulo": "Iogurte Proteico",
+  "tempo": "",
+  "porcoes": "5",
+  "calorias": "138 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r96.jpg",
+  "ingredientes": [
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "30g de whey ou leite em pó desnatado",
+   "1 pacote de gelatina de morango",
+   "4 col. de sopa de chia — ou 40g",
+   "1 bandeja de morango — ou 200g",
+   "2 cachos médios de uva"
+  ],
+  "modo": [
+   "Prepare a gelatina conforme a embalagem e divida em 5 potes. Leve à geladeira até firmar.",
+   "Misture o iogurte com a chia e o whey ou leite em pó.",
+   "Coloque sobre a gelatina e finalize com as frutas.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567745
+ },
+ {
+  "id": "r97",
+  "titulo": "Mousse de Maracujá com Chocolate Branco",
+  "tempo": "",
+  "porcoes": "5",
+  "calorias": "186 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r97.jpg",
+  "ingredientes": [
+   "3 polpas de maracujá",
+   "3 potes de iogurte natural desnatado — ou 480g",
+   "45g de whey ou leite em pó desnatado",
+   "25g de chocolate branco",
+   "Adoçante a gosto",
+   "½ limão espremido"
+  ],
+  "modo": [
+   "Bata todos os ingredientes no liquidificador ou processador por 5 minutos, até ficar aerado.",
+   "Distribua em 5 porções.",
+   "Reserve na geladeira por cerca de 24h.",
+   "Finalize com cerca de 5g de chocolate branco em cada.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567750
+ },
+ {
+  "id": "r98",
+  "titulo": "Muffins de Iogurte",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "118 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r98.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "8 col. de sopa de farinha da sua preferência (aveia, trigo, arroz) — ou 80g",
+   "40g de gotas de chocolate",
+   "Essência de baunilha a gosto",
+   "Adoçante a gosto",
+   "1 col. de chá de fermento químico — ou 4g"
+  ],
+  "modo": [
+   "Misture todos os ingredientes.",
+   "Divida em 6 forminhas de silicone.",
+   "Asse em forno pré-aquecido a 180 graus por 25 a 30 minutos.",
+   "Conservação Congelador: 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567754
+ },
+ {
+  "id": "r99",
+  "titulo": "Pavê para Comer Todo Dia",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "210 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r99.jpg",
+  "ingredientes": [
+   "800ml de leite desnatado",
+   "1 gema de ovo peneirada",
+   "10g de leite em pó desnatado",
+   "2 col. de sopa de amido de milho — ou 20g",
+   "30g de whey ou leite em pó desnatado",
+   "Essência de baunilha a gosto",
+   "20g de cacau em pó 50%",
+   "4 pacotes de torrada de cacau ou 16 unidades de bolacha maizena — cerca de 95g"
+  ],
+  "modo": [
+   "Para o creme branco, misture 400ml de leite, 1 col. de amido, o whey/leite em pó e essência de baunilha em fogo baixo até encorpar.",
+   "Para o creme de chocolate, repita o processo com 400ml de leite, 1 col. de amido e cacau em pó.",
+   "Com os cremes prontos e frios, monte as camadas em 4 potes intercalando os cremes com o biscoito.",
+   "Finalize com chocolate ralado, cacau ou leite em pó polvilhado.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567760
+ },
+ {
+  "id": "r100",
+  "titulo": "Pudim Sem Açúcar",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "105 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r100.jpg",
+  "ingredientes": [
+   "4 ovos peneirados",
+   "4 col. de sopa de leite em pó desnatado — ou 40g",
+   "600ml de leite desnatado",
+   "Essência ou extrato de baunilha a gosto",
+   "Adoçante a gosto",
+   "2 col. de sopa de doce de leite zero açúcar — ou 40g diluídos em 50ml de leite desnatado"
+  ],
+  "modo": [
+   "Misture os ovos peneirados com o leite desnatado, o leite em pó, o adoçante e a essência de baunilha.",
+   "Porcione em 6 potes de vidro com cerca de 150 a 200ml cada.",
+   "Em uma panela, cubra o fundo com água e coloque os potes com a massa.",
+   "Cozinhe em banho-maria em fogo baixo por 30 a 40 minutos, tampando os potes ou cobrindo com papel alumínio para acelerar.",
+   "Verifique o cozimento espetando com uma faca — se sair limpa, está pronto.",
+   "Após frios, finalize com a calda de doce de leite diluído no leite e armazene com tampa na geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567766
+ },
+ {
+  "id": "r101",
+  "titulo": "Salada de Frutas com Creme de Maracujá",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "129 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r101.jpg",
+  "ingredientes": [
+   "200g de morango",
+   "2 kiwis médios",
+   "1 maçã grande",
+   "2 bananas — ou 100g",
+   "1 cacho médio de uva",
+   "1 pote de iogurte natural desnatado — ou 160g",
+   "1 polpa de maracujá",
+   "30g de whey ou leite em pó desnatado",
+   "½ limão espremido"
+  ],
+  "modo": [
+   "Corte as frutas no tamanho desejado (quanto menos cortar, maior a durabilidade).",
+   "Esprema o limão sobre as frutas para evitar escurecimento.",
+   "Bata no liquidificador ou processador a polpa de maracujá, o iogurte e o whey ou leite em pó.",
+   "Divida em 6 potes alternando entre frutas e creme.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567771
+ },
+ {
+  "id": "r102",
+  "titulo": "Salada de Frutas com Iogurte",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "182 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r102.jpg",
+  "ingredientes": [
+   "2 potes de iogurte natural desnatado — ou 320g",
+   "6 col. de sopa de leite em pó desnatado — ou 60g",
+   "6 col. de sopa de chia — ou 90g",
+   "Frutas da sua preferência — sugestão: morango, maçã e uva, cerca de 200g cada"
+  ],
+  "modo": [
+   "Misture o iogurte com o leite em pó e a chia para que a mistura vá engrossando.",
+   "Corte as frutas em pedaços menores.",
+   "Monte em camadas dentro de potes herméticos, intercalando frutas e iogurte.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567776
+ },
+ {
+  "id": "r103",
+  "titulo": "Salada de Frutas com Sagu",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "164 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r103.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Se quiser uma refeição completa, complemente com 30g de whey ou leite em pó desnatado. 100g de sagu de mandioca",
+   "200ml de leite de coco",
+   "200g de morango",
+   "2 kiwis médios",
+   "2 cachos médios de uva",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Hidrate o sagu por 10 minutos e depois cozinhe até ficar transparente.",
+   "Escorra a água e misture com o leite de coco e o adoçante.",
+   "Divida em 6 porções e finalize com as frutas por cima.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567781
+ },
+ {
+  "id": "r104",
+  "titulo": "Salada de Frutas para a Semana",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "185 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r104.jpg",
+  "ingredientes": [
+   "200g de uva",
+   "200g de morango",
+   "200g de mamão",
+   "1 maçã",
+   "2 bananas — ou 100g",
+   "½ limão espremido",
+   "200ml de leite de coco light ou 1 pote de iogurte natural desnatado",
+   "6 col. de sopa rasas de chia — ou 60g"
+  ],
+  "modo": [
+   "Hidrate a chia no leite de coco ou iogurte, adicionando adoçante se preferir.",
+   "Corte as frutas em pedaços menores, deixando a banana e a maçã por último.",
+   "Esprema o limão sobre as frutas.",
+   "Porcione tudo em 6 potes de vidro e leve para a geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567786
+ },
+ {
+  "id": "r105",
+  "titulo": "Salada de Gelatina",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "88 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r105.jpg",
+  "ingredientes": [
+   "2 kiwis médios",
+   "1 maçã grande",
+   "200g de mamão",
+   "1 cacho médio de uva",
+   "200g de manga",
+   "24g de gelatina incolor",
+   "500ml de água",
+   "1 limão inteiro espremido",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Corte todas as frutas em pedaços menores.",
+   "Hidrate a gelatina com cerca de 10 col. de sopa de água e derreta no micro-ondas ou em banho-maria.",
+   "Dilua a gelatina derretida em 500ml de água.",
+   "Esprema o limão, adicione o adoçante e misture tudo muito bem.",
+   "Conservação Congelador: não recomendado; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567791
+ },
+ {
+  "id": "r106",
+  "titulo": "Sobremesa de Abacaxi",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "120 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r106.jpg",
+  "ingredientes": [
+   "1 gelatina de abacaxi — ou 12g",
+   "3 potes de iogurte natural desnatado — ou 480g",
+   "4 col. de sopa de leite em pó desnatado — ou 40g",
+   "1 abacaxi médio",
+   "Adoçante — opcional"
+  ],
+  "modo": [
+   "Prepare a gelatina de abacaxi conforme as instruções da embalagem.",
+   "Descasque o abacaxi, corte em cubos e cozinhe em uma frigideira; se necessário, adicione adoçante.",
+   "Após a gelatina firme, bata no liquidificador com o iogurte e o leite em pó até ficar homogêneo.",
+   "Separe em 6 potes de vidro e leve para a geladeira por 30 minutos para firmar um pouco.",
+   "Finalize com o abacaxi cozido por cima e volte para a geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567796
+ },
+ {
+  "id": "r107",
+  "titulo": "Sobremesa de Limão",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "44 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r107.jpg",
+  "ingredientes": [
+   "2 pacotes de gelatina de limão — de preferência zero açúcar",
+   "30g de whey ou leite em pó desnatado",
+   "160g de uva verde"
+  ],
+  "modo": [
+   "Prepare as gelatinas conforme a embalagem.",
+   "Após prontas, misture no processador ou liquidificador com o whey e bata até ficar bem aerado.",
+   "Despeje em potes e armazene na geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567800
+ },
+ {
+  "id": "r108",
+  "titulo": "Sobremesa de Morango",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "28 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r108.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Adicione 30g de whey ou leite em pó desnatado e frutas para uma refeição mais completa. 2 pacotes de gelatina de morango — de preferência zero açúcar",
+   "2 potes de iogurte natural desnatado — ou 320g"
+  ],
+  "modo": [
+   "Prepare as gelatinas conforme orientação da embalagem.",
+   "Após prontas, misture no processador ou liquidificador com o iogurte e bata até ficar uma mistura aerada.",
+   "Coloque em potes e leve à geladeira até firmar.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567805
+ },
+ {
+  "id": "r109",
+  "titulo": "Toast de Banana",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "263 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r109.jpg",
+  "ingredientes": [
+   "1 fatia de pão de forma — ou 25g",
+   "30g de creme de ricota light ou 20g de doce de leite",
+   "1 banana em fatias — ou 50g",
+   "Canela em pó a gosto",
+   "1 fatia de queijo muçarela — ou 20g"
+  ],
+  "modo": [
+   "Amasse o centro do pão e recheie com o creme de ricota ou doce de leite.",
+   "Cubra o pão com as bananas, finalize com a canela e com o queijo muçarela.",
+   "Faça em quantidade, congele e leve por cerca de 10 a 15 minutos a 160 graus na air fryer na hora de consumir.",
+   "Conservação Congelador: 30 dias; Geladeira: até 5 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567810
+ },
+ {
+  "id": "r110",
+  "titulo": "Toast Romeu e Julieta",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "180 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "imagens/importadas/r110.jpg",
+  "ingredientes": [
+   "1 fatia de pão de forma — ou 25g",
+   "20g de requeijão light",
+   "20g de queijo minas frescal ou 1 fatia de queijo muçarela",
+   "20g de goiabada"
+  ],
+  "modo": [
+   "Passe 20g de requeijão light na base do pão.",
+   "Corte 20g de queijo em 2 tiras e 20g de goiabada em 2 tiras.",
+   "Intercale as tiras de queijo e goiabada sobre o pão com requeijão.",
+   "Pode fazer em quantidade, embalar no plástico filme e armazenar no congelador.",
+   "Para preparar, leve na air fryer por cerca de 15 a 20 minutos a 160 graus se congelada; sem congelar, 5 minutos a 180 graus.",
+   "Conservação Congelador: até 30 dias (mais recomendado); Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567814
+ },
+ {
+  "id": "r111",
+  "titulo": "Torta de Limão",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "275 kcal",
+  "categoria": "Lanches Doces",
+  "fit": true,
+  "emoji": "🍫",
+  "imagem": "",
+  "ingredientes": [
+   "💡 Dica opcional: Consuma gelado. Faça em quantidade para a semana — fica ainda melhor no dia seguinte. 1 pote de iogurte natural desnatado — ou 160g",
+   "3 col. de sopa de leite em pó desnatado — ou 30g",
+   "Adoçante a gosto",
+   "½ limão espremido",
+   "7 unidades de biscoito maizena"
+  ],
+  "modo": [
+   "Em um pote de vidro, misture o iogurte natural com o suco de ½ limão, o leite em pó e o adoçante a gosto.",
+   "Adicione os biscoitos maizena e misture.",
+   "Finalize com raspas de limão por cima.",
+   "Tampe o pote e leve para a geladeira por pelo menos 2 horas antes de consumir.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567820
+ },
+ {
+  "id": "r112",
+  "titulo": "Hambúrguer de Carne",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "162 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r112.jpg",
+  "ingredientes": [
+   "130g de carne magra moída crua (patinho, coxão mole ou músculo)",
+   "Páprica defumada a gosto",
+   "Chimichurri a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Fumaça líquida ou em pó (opcional)"
+  ],
+  "modo": [
+   "Tempere a carne moída com sal, pimenta-do-reino, chimichurri e páprica defumada a gosto.",
+   "Porcione com um molde de hambúrguer ou tampa de pote para dar o formato.",
+   "Utilize um pedaço de plástico filme para armazenar, se for o caso.",
+   "Faça em quantidade para ter sempre no congelador. Ex: 1.300g de carne moída rende 10 unidades.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567826
+ },
+ {
+  "id": "r113",
+  "titulo": "Big Mac em Casa",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "370 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r113.jpg",
+  "ingredientes": [
+   "1 unidade do Hambúrguer de Carne (Receita Base)",
+   "1 unidade de pão de hambúrguer — ou 50g",
+   "1 fatia de queijo cheddar light — ou 20g",
+   "Alface americana a gosto",
+   "Pepino em conserva a gosto",
+   "Molho: 1 col. de sopa de maionese light (12g) + 1 col. de chá de mostarda (8g) + 1 col. de sopa de vinagre + pepino em conserva + páprica defumada + sal + pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Prepare o hambúrguer de carne da receita-base.",
+   "Misture os ingredientes do molho até ficar homogêneo.",
+   "Divida o pão em 3 fatias se preferir deixar igual à divisão de um Big Mac tradicional.",
+   "Monte as camadas com o queijo, alface e pepino, e aproveite."
+  ],
+  "criadoEm": 1788134567830
+ },
+ {
+  "id": "r114",
+  "titulo": "Hambúrguer Pronto para Congelar",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "307 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r114.jpg",
+  "ingredientes": [
+   "1 unidade de pão de hambúrguer — ou 50g",
+   "80g de carne magra moída crua (patinho, coxão mole ou músculo)",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Chimichurri a gosto",
+   "Fumaça líquida ou em pó (opcional)",
+   "1 fatia de queijo muçarela — ou 20g"
+  ],
+  "modo": [
+   "Tempere a carne moída crua com sal, pimenta, chimichurri e, se desejar, fumaça líquida ou em pó.",
+   "Corte o pão ao meio e sobre cada metade coloque cerca de 40g de carne moída.",
+   "Finalize com ½ fatia de queijo em cada metade.",
+   "Faça em quantidade e armazene no congelador.",
+   "Na hora de consumir, coloque diretamente do congelador para a frigideira em fogo baixo até grelhar a carne e tostar o queijo.",
+   "Finalize com salada e molhos a gosto.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567834
+ },
+ {
+  "id": "r115",
+  "titulo": "Salada Big Mac",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "390 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r115.jpg",
+  "ingredientes": [
+   "Alface americana a gosto",
+   "Tomate cereja a gosto",
+   "130g de carne magra moída crua (patinho, coxão mole ou músculo)",
+   "260g de batata inglesa crua",
+   "Páprica defumada a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Molho: 1 col. de sopa de iogurte natural desnatado (20g) + 1 col. de sopa de mostarda (12g) + 1 pepino em conserva + 2 col. de sopa da água da conserva"
+  ],
+  "modo": [
+   "Refogue 130g de carne magra moída com os temperos naturais listados até ficar completamente cozida.",
+   "Cozinhe 260g de batata inglesa crua no micro-ondas ou vapor até ficar macia.",
+   "Após fria, corte em formato de canoa e asse na air fryer a 200 graus por cerca de 20 minutos, mexendo a cada 5 minutos.",
+   "Misture todos os ingredientes do molho até ficar homogêneo.",
+   "Junte todos os ingredientes em uma cumbuca e aproveite."
+  ],
+  "criadoEm": 1788134567837
+ },
+ {
+  "id": "r116",
+  "titulo": "Hambúrguer de Frango",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "164 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r116.jpg",
+  "ingredientes": [
+   "150g de peito de frango moído cru",
+   "Páprica defumada a gosto",
+   "Lemon pepper a gosto",
+   "Açafrão a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Tempere o frango cru com os temperos naturais listados.",
+   "Porcione sobre plástico filme com um molde de hambúrguer ou tampa de pote para dar o formato.",
+   "Faça em quantidade para sempre ter no congelador. Ex: 1.500g rende 10 unidades.",
+   "Na hora de preparar, asse na air fryer por cerca de 30 minutos a 160 graus se congelado, ou 15 minutos a 180 graus se resfriado.",
+   "Também pode preparar na frigideira até a carne estar completamente cozida e dourada.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567842
+ },
+ {
+  "id": "r117",
+  "titulo": "Mac Chicken em Casa",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "388 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r117.jpg",
+  "ingredientes": [
+   "1 unidade do Hambúrguer de Frango (Receita Base)",
+   "1 unidade de pão de hambúrguer — ou 50g",
+   "2 col. de sopa cheias de maionese light — ou 30g",
+   "Alface americana a gosto",
+   "10g de magic toast, flocão de milho ou farinha panko / rosca"
+  ],
+  "modo": [
+   "Utilize o Hambúrguer de Frango da Receita Base e empane no flocão de milho, panko temperado ou torrada magic toast triturada.",
+   "Asse no forno ou air fryer por 10 a 15 minutos a 200 graus.",
+   "Monte o sanduíche com o pão, o hambúrguer pronto, a maionese e o alface a gosto."
+  ],
+  "criadoEm": 1788134567846
+ },
+ {
+  "id": "r118",
+  "titulo": "Salsicha Saudável",
+  "tempo": "",
+  "porcoes": "10",
+  "calorias": "98 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r118.jpg",
+  "ingredientes": [
+   "800g de peito de frango moído cru ou filé mignon suíno moído cru",
+   "3 col. de sopa cheias de colorau — ou 30g",
+   "3 col. de sopa cheias de páprica defumada — ou 30g",
+   "Curry a gosto",
+   "Açafrão a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Misture o peito de frango moído com os temperos naturais listados.",
+   "Porcione sobre pedaços de plástico filme, utilizando cerca de 100g por salsicha, e modele no formato de salsicha.",
+   "Enrole o plástico filme no formato de salsicha ou utilize sacos de sacolé.",
+   "Faça em quantidade e congele.",
+   "Prepare na frigideira ou air fryer e finalize na panela envolta em molho de tomate.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567849
+ },
+ {
+  "id": "r119",
+  "titulo": "Cachorro-quente",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "345 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r119.jpg",
+  "ingredientes": [
+   "2 unidades de Salsicha Saudável (Receita Base)",
+   "1 unidade de pão de cachorro-quente — ou 50g",
+   "3 col. de sopa de passata de tomate / molho de tomate — ou 45g",
+   "Ketchup a gosto",
+   "Mostarda a gosto"
+  ],
+  "modo": [
+   "Monte o cachorro-quente saudável com as 2 salsichas envoltas no molho de tomate, junto ao pão.",
+   "Finalize com os molhos da sua preferência."
+  ],
+  "criadoEm": 1788134567853
+ },
+ {
+  "id": "r120",
+  "titulo": "Subway Frango Teriyaki",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "325 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r120.jpg",
+  "ingredientes": [
+   "1 unidade de pão francês / ½ baguete — ou 50g",
+   "100g de peito de frango cru",
+   "1 col. de sopa de iogurte natural desnatado — ou 20g",
+   "Marinada: páprica defumada + gengibre em pó + sal + pimenta-do- reino + mostarda + vinagre + molho tarê + 1 col. de chá de amido de milho (8g)"
+  ],
+  "modo": [
+   "Corte o peito de frango em cubos e deixe marinando com todos os temperos descritos.",
+   "Coloque na frigideira e deixe dourar.",
+   "Após retirar o frango, acrescente o iogurte natural na frigideira para formar um molho.",
+   "Monte o lanche e finalize com os vegetais da sua preferência: cebola, tomate, alface, rúcula e pepino."
+  ],
+  "criadoEm": 1788134567856
+ },
+ {
+  "id": "r121",
+  "titulo": "Pizza para a Semana",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "359 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r121.jpg",
+  "ingredientes": [
+   "1 tortilha da sua preferência (pão sírio ou rap)",
+   "2 col. de sopa de passata de tomate / molho de tomate — ou 30g",
+   "130g de peito de frango cru",
+   "½ fatia de queijo muçarela — ou 10g"
+  ],
+  "modo": [
+   "Refogue 130g de peito de frango cru com os temperos da sua preferência até ficar totalmente cozido. Desfie, rendendo cerca de 100g de frango cozido.",
+   "Sobre a tortilha adicione o molho de tomate e o frango desfiado.",
+   "Embale em plástico para congelador ou saco zip. Faça em quantidade e congele.",
+   "Prepare na frigideira, forno ou air fryer até dourar.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567860
+ },
+ {
+  "id": "r122",
+  "titulo": "Espetinho de Carne com Cebola",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "145 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r122.jpg",
+  "ingredientes": [
+   "1kg de carne magra crua (patinho, coxão mole ou músculo)",
+   "1 cebola roxa ou tradicional",
+   "Sal a gosto",
+   "Páprica defumada a gosto",
+   "Fumaça líquida ou em pó a gosto",
+   "Shoyu a gosto",
+   "Mostarda a gosto"
+  ],
+  "modo": [
+   "Corte a carne em cubos e deixe marinando por pelo menos 30 minutos com os temperos listados.",
+   "Separe a cebola em pétalas para intercalar com a carne.",
+   "Monte os espetinhos com cerca de 100g de carne crua em cada, rendendo aproximadamente 10 unidades.",
+   "Armazene em sacos para freezer ou sacos zip.",
+   "Na hora de assar, deixe cerca de 20 minutos a 150–160 graus se estiver congelado.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567865
+ },
+ {
+  "id": "r123",
+  "titulo": "Espetinho de Filé Mignon",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "146 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r123.jpg",
+  "ingredientes": [
+   "300g de filé mignon suíno cru",
+   "200g de abacaxi",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Temperos a gosto",
+   "½ pimentão vermelho grande",
+   "½ pimentão amarelo grande"
+  ],
+  "modo": [
+   "Corte o filé mignon suíno em cubos e deixe marinando por pelo menos 30 minutos.",
+   "Monte os espetinhos intercalando cerca de 50g de filé com abacaxi e pimentão.",
+   "Armazene em sacos para freezer ou sacos zip.",
+   "Na hora de consumir, asse na air fryer por 10 a 12 minutos a 160–180 graus.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567868
+ },
+ {
+  "id": "r124",
+  "titulo": "Espetinho de Frango",
+  "tempo": "",
+  "porcoes": "",
+  "calorias": "143 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r124.jpg",
+  "ingredientes": [
+   "300g de peito de frango cru",
+   "200g de tomate cereja",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Temperos a gosto",
+   "½ pimentão vermelho grande",
+   "½ pimentão amarelo grande"
+  ],
+  "modo": [
+   "Corte o peito de frango em cubos e deixe marinando por pelo menos 30 minutos.",
+   "Monte os espetinhos intercalando cerca de 50g de frango com tomate cereja e pimentão.",
+   "Armazene em sacos para freezer ou sacos zip.",
+   "Na hora de consumir, asse na air fryer por 10 a 12 minutos a 160–180 graus.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567873
+ },
+ {
+  "id": "r125",
+  "titulo": "Linguiça Artesanal",
+  "tempo": "",
+  "porcoes": "10",
+  "calorias": "90 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r125.jpg",
+  "ingredientes": [
+   "800g de filé mignon suíno moído cru",
+   "Páprica defumada a gosto",
+   "Lemon pepper a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Alho tostado a gosto"
+  ],
+  "modo": [
+   "Para o alho tostado: embrulhe o alho em papel alumínio com sal, pimenta e azeite. Asse por 20 minutos a 200 graus.",
+   "Misture o filé mignon suíno com os temperos e o alho tostado.",
+   "Armazene em pedaços de plástico filme no formato de linguiça, dividindo em porções de 100g cada.",
+   "Faça em quantidade e congele. Asse na air fryer ou frigideira na hora de preparar.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567877
+ },
+ {
+  "id": "r126",
+  "titulo": "Pão de Alho Reduzido em Gorduras",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "238 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r126.jpg",
+  "ingredientes": [
+   "4 unidades de pão francês — ou 200g",
+   "1 cabeça de alho inteira",
+   "1 pote de creme de ricota light — ou 200g",
+   "2 fatias de queijo muçarela — ou 40g",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "Cebolinha a gosto"
+  ],
+  "modo": [
+   "Asse a cabeça de alho com azeite envolta em papel alumínio por 20 minutos a 200 graus.",
+   "Misture o alho assado amassado com o creme de ricota, sal, pimenta e cebolinha.",
+   "Corte os pães em tiras horizontais e preencha com esse creme.",
+   "Finalize com ½ fatia de queijo muçarela em cada pão.",
+   "Armazene em sacos para freezer. Asse por 5 minutos a 170 graus sem congelar, ou 15 a 20 minutos a 160 graus se congelado.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567880
+ },
+ {
+  "id": "r127",
+  "titulo": "Filé Mignon Suíno Empanado",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "167 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r127.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Sirva com um pão francês de 50g e repolho cortado em tiras finas envolto em 1 colher de sopa de maionese light. 1kg de filé mignon suíno cru",
+   "40g de magic toast, flocão de milho ou farinha panko / rosca",
+   "1 limão",
+   "Alecrim a gosto",
+   "Páprica defumada a gosto",
+   "Chimichurri a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Divida em 8 filés com cerca de 125g cada.",
+   "Marine por pelo menos 30 minutos com limão espremido, alecrim, páprica, chimichurri, sal e pimenta.",
+   "Empane na farinha escolhida e separe as porções em sacos para freezer.",
+   "Na hora de preparar, asse na air fryer por cerca de 20 minutos a 160 graus ou até dourar.",
+   "Conservação Congelador: até 60 dias; Geladeira: não recomendado — somente no mesmo dia",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567885
+ },
+ {
+  "id": "r128",
+  "titulo": "Quibe de Quinoa",
+  "tempo": "",
+  "porcoes": "7",
+  "calorias": "150 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "imagens/importadas/r128.jpg",
+  "ingredientes": [
+   "400g de carne magra moída crua (patinho, coxão mole ou músculo)",
+   "200g de quinoa cozida",
+   "1 cebola roxa",
+   "1 tomate",
+   "Tempero verde a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto",
+   "½ limão espremido",
+   "3 fatias e ½ de queijo muçarela — ou 70g"
+  ],
+  "modo": [
+   "Cozinhe 70g de quinoa crua em água para render cerca de 200g de quinoa cozida.",
+   "Corte o tomate e a cebola roxa em cubos.",
+   "Misture todos os ingredientes e tempere com sal, limão e pimenta.",
+   "Separe porções de 60g e recheie com cerca de 5g de queijo muçarela em cada.",
+   "Pré-congele em uma forma, depois separe as porções em sacos zip (2 quibes por porção).",
+   "Prepare na air fryer por 10 a 15 minutos na hora de consumir.",
+   "Conservação Congelador: 30 a 60 dias; Geladeira: não recomendado"
+  ],
+  "criadoEm": 1788134567890
+ },
+ {
+  "id": "r129",
+  "titulo": "Rocambole de Carne",
+  "tempo": "",
+  "porcoes": "8",
+  "calorias": "185 kcal",
+  "categoria": "SOS Delivery",
+  "fit": true,
+  "emoji": "🍔",
+  "imagem": "",
+  "ingredientes": [
+   "800g de carne magra moída crua (patinho, coxão mole ou músculo)",
+   "Páprica defumada a gosto",
+   "Chimichurri a gosto",
+   "Temperos frescos a gosto",
+   "Sal a gosto",
+   "3 col. de sopa de requeijão light — ou 90g",
+   "3 fatias de queijo muçarela — ou 60g"
+  ],
+  "modo": [
+   "Misture a carne crua com os temperos naturais listados.",
+   "Abra a carne sobre um pedaço de plástico filme.",
+   "Coloque o requeijão e a muçarela sobre ela.",
+   "Enrole tudo com cuidado, como se fosse um rocambole. Feche as pontas do plástico.",
+   "Asse em forno pré-aquecido a 180 graus por pelo menos 40 minutos.",
+   "Conservação Congelador: 60 a 90 dias; Geladeira: não recomendado — somente no mesmo dia"
+  ],
+  "criadoEm": 1788134567894
+ },
+ {
+  "id": "r130",
+  "titulo": "Doce de Leite",
+  "tempo": "",
+  "porcoes": "20",
+  "calorias": "36 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r130.jpg",
+  "ingredientes": [
+   "200g de leite em pó desnatado zero lactose ou leite vegetal em pó",
+   "200ml de água quente",
+   "Adoçante a gosto"
+  ],
+  "modo": [
+   "Caramelize o leite em pó na frigideira em fogo baixo até que fique bem dourado.",
+   "Em um processador ou liquidificador, bata o leite em pó com a água quente. Adicione aos poucos — a água precisa estar bem quente. Bata até dissolver todo o leite em pó.",
+   "Ajuste o adoçante a gosto.",
+   "Armazene na geladeira em pote de vidro higienizado com tampa.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567899
+ },
+ {
+  "id": "r131",
+  "titulo": "Iogurte Sem Lactose",
+  "tempo": "",
+  "porcoes": "10",
+  "calorias": "60 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r131.jpg",
+  "ingredientes": [
+   "1L de leite desnatado zero lactose",
+   "1 pote de iogurte natural da sua preferência — ou 160g",
+   "5 col. de sopa de leite em pó zero lactose — ou 50g"
+  ],
+  "modo": [
+   "Em uma panela, aqueça o leite por cerca de 4 minutos em fogo médio.",
+   "Desligue o fogo e aguarde ficar morno (cerca de 35 a 40 graus). Teste: coloque o dedo no leite — se conseguir mantê-lo por 10 segundos sem se queimar, está na temperatura certa.",
+   "Quando morno, adicione o iogurte e o leite em pó. Misture bem até dissolver.",
+   "Tampe com um pano e coloque dentro do forno desligado ou micro- ondas por até 12 horas (ou de uma noite para o dia). Vá conferindo a partir de 6 a 8h.",
+   "Depois de pronto, divida nas porções para maior durabilidade na geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567903
+ },
+ {
+  "id": "r132",
+  "titulo": "Leite Vegetal",
+  "tempo": "",
+  "porcoes": "5",
+  "calorias": "144 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r132.jpg",
+  "ingredientes": [
+   "120g de castanhas cruas (caju, do-pará ou mista)",
+   "1L de água filtrada",
+   "Sal a gosto",
+   "Adoçante a gosto",
+   "Essência de baunilha a gosto"
+  ],
+  "modo": [
+   "Deixe as castanhas de molho por 8 a 12 horas em água. Para acelerar, deixe 30 minutos em água quente.",
+   "Bata no liquidificador com a água filtrada.",
+   "Coe o excesso com um pano limpo.",
+   "Armazene na geladeira por até 3 dias.",
+   "Conservação Congelador: não recomendado; Geladeira: até 3 dias"
+  ],
+  "criadoEm": 1788134567905
+ },
+ {
+  "id": "r133",
+  "titulo": "Requeijão de Inhame",
+  "tempo": "",
+  "porcoes": "22",
+  "calorias": "37 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r133.jpg",
+  "ingredientes": [
+   "700g de inhame cru",
+   "2 col. de sopa de azeite de oliva — ou 30ml",
+   "Sal a gosto",
+   "1 limão",
+   "½ xícara de chá de água",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Cozinhe 700g de inhame cru em uma panela com água até ficar macio. Após frio, descasque — renderá cerca de 500g de inhame cozido.",
+   "Bata o inhame cozido com o azeite, ½ limão espremido, a água e os temperos em um processador ou liquidificador até ficar homogêneo.",
+   "Envase e armazene na geladeira.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567909
+ },
+ {
+  "id": "r134",
+  "titulo": "Requeijão de Tapioca",
+  "tempo": "",
+  "porcoes": "20",
+  "calorias": "55 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r134.jpg",
+  "ingredientes": [
+   "100g de tapioca granulada",
+   "500ml de leite vegetal — ½ caixa",
+   "2 col. de sopa de levedura nutricional — ou 20g",
+   "Sal a gosto",
+   "3 col. de sopa de azeite de oliva — ou 45ml"
+  ],
+  "modo": [
+   "Aqueça a tapioca, o leite, a levedura e o sal em fogo médio, mexendo até ferver e engrossar.",
+   "Bata tudo no liquidificador e finalize com o azeite.",
+   "Armazene na geladeira por até 7 dias.",
+   "Conservação Congelador: não recomendado; Geladeira: até 7 dias"
+  ],
+  "criadoEm": 1788134567913
+ },
+ {
+  "id": "r135",
+  "titulo": "Massa de Pizza",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "289 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r135.jpg",
+  "ingredientes": [
+   "6 col. de sopa cheias de iogurte natural desnatado — ou 90g",
+   "7 col. de sopa de farinha de arroz — ou 70g",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture o iogurte com a farinha e ajuste o sal, até dar o ponto de massa que não gruda nas mãos.",
+   "Abra a massa com um rolo sobre um pedaço de papel manteiga.",
+   "Modele no formato de pizza na espessura que desejar.",
+   "Asse por 6 minutos na air fryer a 180 graus ou cerca de 15 minutos em forno pré-aquecido a 200 graus.",
+   "Finalize com o recheio da sua preferência e volte na air fryer ou forno até dourar."
+  ],
+  "criadoEm": 1788134567916
+ },
+ {
+  "id": "r136",
+  "titulo": "Mix de Farinhas",
+  "tempo": "",
+  "porcoes": "21",
+  "calorias": "32 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r136.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Validade: até 3 meses armazenado corretamente. 100g de farinha de arroz",
+   "50g de fécula de batata",
+   "30g de polvilho doce",
+   "25g de farinha de aveia sem glúten",
+   "4g de goma xantana (opcional)"
+  ],
+  "modo": [
+   "Em uma tigela, misture todas as farinhas até ficar homogêneo.",
+   "Armazene em pote hermético em local fresco e seco."
+  ],
+  "criadoEm": 1788134567923
+ },
+ {
+  "id": "r137",
+  "titulo": "Pão Sem Glúten",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "119 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r137.jpg",
+  "ingredientes": [
+   "6 col. de sopa de amido de milho — ou 60g",
+   "1 pote de creme de leite light ou leite de coco light — ou 200g",
+   "60g de açúcar ou adoçante",
+   "Sal a gosto",
+   "1 col. de sopa de fermento químico — ou 10g"
+  ],
+  "modo": [
+   "Em uma vasilha, misture o amido, o creme de leite, adoce e ajuste o sal até ficar homogêneo.",
+   "Finalize com o fermento e asse em forno pré-aquecido a 200 graus por 15 a 20 minutos.",
+   "Conservação Congelador: até 30 dias; Geladeira: 5 a 6 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567927
+ },
+ {
+  "id": "r138",
+  "titulo": "Rap de Quinoa",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "130 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r138.jpg",
+  "ingredientes": [
+   "140g de quinoa crua hidratada",
+   "400ml de água",
+   "2 col. de sopa cheias de farinha de arroz — ou 50g",
+   "Açafrão a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Bata todos os ingredientes no liquidificador até formar uma mistura homogênea.",
+   "Distribua a massa na frigideira em fogo baixo, na espessura que preferir, até dourar dos dois lados.",
+   "Recheie com frango, salada ou o recheio da sua preferência.",
+   "Conservação Congelador: até 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567930
+ },
+ {
+  "id": "r139",
+  "titulo": "Tortilha de Batata",
+  "tempo": "",
+  "porcoes": "6",
+  "calorias": "63 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r139.jpg",
+  "ingredientes": [
+   "390g de batata inglesa crua",
+   "2 col. de sopa de amido de milho — ou 40g",
+   "Sal a gosto",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Cozinhe 390g de batata inglesa crua no micro-ondas ou vapor até ficar macia. Após fria, descasque e amasse — renderá cerca de 300g de batata cozida.",
+   "Misture a batata amassada com o amido e ajuste o sal e temperos até formar uma massa homogênea.",
+   "Espalhe na frigideira antiaderente com o auxílio de uma espátula ou pincel de silicone.",
+   "Deixe dourar dos dois lados.",
+   "Conservação Congelador: até 30 dias; Geladeira: 5 a 6 dias"
+  ],
+  "criadoEm": 1788134567935
+ },
+ {
+  "id": "r140",
+  "titulo": "Bolinho de Brócolis",
+  "tempo": "",
+  "porcoes": "10",
+  "calorias": "34 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r140.jpg",
+  "ingredientes": [
+   "1 brócolis",
+   "1 ovo",
+   "3 col. de sopa de farelo de aveia — ou 30g",
+   "2 fatias de queijo muçarela — ou 40g"
+  ],
+  "modo": [
+   "Cozinhe o brócolis em uma panela com água ou no vapor.",
+   "Misture todos os ingredientes com o brócolis já amassado com um garfo. O queijo muçarela pode ser ralado na massa ou dividido em pequenos pedaços para rechear o centro de cada bolinho.",
+   "Modele no formato de bolinhos.",
+   "Asse em forno pré-aquecido a 180 graus por 20 minutos ou na air fryer por 10 minutos.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567939
+ },
+ {
+  "id": "r141",
+  "titulo": "Crepe de Ricota e Espinafre",
+  "tempo": "",
+  "porcoes": "4",
+  "calorias": "194 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r141.jpg",
+  "ingredientes": [
+   "2 ovos",
+   "4 col. de sopa de goma de tapioca — ou 40g",
+   "50ml de leite desnatado",
+   "1 col. de sopa de chia / gergelim — ou 15g",
+   "200g de ricota fresca",
+   "Espinafre fresco a gosto",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Misture os ovos, a tapioca, o leite, sal, pimenta e gergelim ou chia para a massa.",
+   "Na frigideira antiaderente em fogo médio, divida e faça 4 crepes.",
+   "Processe a ricota com o espinafre, sal e pimenta a gosto para o recheio.",
+   "Divida o recheio pelos 4 crepes.",
+   "Armazene em pedaços de papel manteiga ou plástico filme.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567942
+ },
+ {
+  "id": "r142",
+  "titulo": "Poke Vegetariano",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "350 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r142.jpg",
+  "ingredientes": [
+   "30g de arroz japonês cru",
+   "Vinagre de arroz a gosto",
+   "Sal a gosto",
+   "Adoçante a gosto",
+   "100g de edamame",
+   "1 folha de alga nori",
+   "30g de creme de ricota light / cream cheese light",
+   "Gergelim a gosto",
+   "Cenoura ralada a gosto",
+   "Pepino a gosto",
+   "Tomate a gosto",
+   "Shoyu light a gosto"
+  ],
+  "modo": [
+   "Cozinhe 30g de arroz japonês cru conforme as instruções da embalagem, rendendo cerca de 100g de arroz cozido.",
+   "Tempere o arroz já cozido e resfriado com vinagre de arroz, sal e adoçante.",
+   "Em uma cumbuca, coloque o arroz ao fundo e adicione os demais ingredientes: alga, cenoura, tomate, pepino, creme de ricota, edamame cozido e gergelim. Pode abusar dos vegetais!",
+   "Finalize com shoyu light a gosto."
+  ],
+  "criadoEm": 1788134567946
+ },
+ {
+  "id": "r143",
+  "titulo": "Quibe de Soja",
+  "tempo": "",
+  "porcoes": "48",
+  "calorias": "73 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r143.jpg",
+  "ingredientes": [
+   "130g de quinoa crua",
+   "800g de proteína de soja crua",
+   "5 fatias de queijo muçarela — ou 100g",
+   "Tempero verde a gosto",
+   "1 cebola",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Cozinhe 130g de quinoa crua em uma panela com água, rendendo cerca de 400g de quinoa cozida.",
+   "Hidrate a proteína de soja com água quente e vinagre ou limão. Após pelo menos 10 minutos, escorra a água.",
+   "Corte a cebola em cubos.",
+   "Misture tudo com a quinoa e os temperos até formar uma massa.",
+   "Divida em porções e recheie com cerca de 5g de queijo em cada.",
+   "Asse em forno ou air fryer até dourar. Congele o restante por até 30 dias.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias"
+  ],
+  "criadoEm": 1788134567950
+ },
+ {
+  "id": "r144",
+  "titulo": "Rap de Cenoura",
+  "tempo": "",
+  "porcoes": "2",
+  "calorias": "85 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r144.jpg",
+  "ingredientes": [
+   "1 cenoura grande ralada",
+   "1 ovo",
+   "1 fatia de queijo muçarela ralado — ou 20g",
+   "Sal a gosto",
+   "Pimenta-do-reino a gosto"
+  ],
+  "modo": [
+   "Misture a cenoura ralada com o ovo e o queijo ralado.",
+   "Distribua a mistura na frigideira, dividindo em duas porções.",
+   "Recheie com ovo mexido, requeijão, salada ou o recheio da sua preferência."
+  ],
+  "criadoEm": 1788134567952
+ },
+ {
+  "id": "r145",
+  "titulo": "Sanduíche de Grão-de-bico",
+  "tempo": "",
+  "porcoes": "3",
+  "calorias": "219 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "imagens/importadas/r145.jpg",
+  "ingredientes": [
+   "💡 Dica opcional: Experimente adicionar cebola caramelizada na frigideira com sal, pimenta e um pouco de água. Combina muito! 1 lata de grão-de-bico — ou 170g",
+   "½ cenoura média ralada",
+   "2 col. de sopa de milho — ou 20g",
+   "6 fatias de pão de forma — ou 150g",
+   "Cebolinha a gosto",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Bata o grão-de-bico no processador, misture com os demais ingredientes até formar uma pasta homogênea.",
+   "Distribua sobre 3 fatias de pão de forma.",
+   "Feche os sanduíches com as outras 3 fatias restantes.",
+   "Embale em plástico filme ou papel manteiga.",
+   "Conservação Congelador: até 30 dias; Geladeira: até 5 dias",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567956
+ },
+ {
+  "id": "r146",
+  "titulo": "Tofu de Lentilha",
+  "tempo": "",
+  "porcoes": "24",
+  "calorias": "36 kcal",
+  "categoria": "Receitas Inclusivas",
+  "fit": true,
+  "emoji": "🍲",
+  "imagem": "",
+  "ingredientes": [
+   "250g de lentilha rosa crua",
+   "1,3L de água fervente",
+   "Temperos a gosto"
+  ],
+  "modo": [
+   "Bata a lentilha com 1L de água fervendo no liquidificador.",
+   "Despeje a mistura em uma panela, adicione 300ml de água e os temperos da preferência.",
+   "Após misturar e começar a borbulhar, despeje em uma travessa de vidro.",
+   "Deixe esfriar e endurecer. Armazene na geladeira por 5 a 7 dias.",
+   "Conservação Congelador: não recomendado; Geladeira: 5 a 7 dias"
+  ],
+  "criadoEm": 1788134567959
+ },
+ {
+  "id": "r147",
+  "titulo": "Abacaxi com Leite de Coco",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "300 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "imagens/importadas/r147.jpg",
+  "ingredientes": [
+   "200g de abacaxi congelado",
+   "3 cubos de leite de coco light congelado em forminhas de gelo",
+   "30g de whey ou leite em pó desnatado"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567960
+ },
+ {
+  "id": "r148",
+  "titulo": "Banana com Doce de Leite",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "298 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "imagens/importadas/r148.jpg",
+  "ingredientes": [
+   "120g de banana congelada — aproximadamente 2 bananas pequenas",
+   "30g de leite em pó desnatado ou whey",
+   "1 col. de sopa de doce de leite — ou 20g"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567961
+ },
+ {
+  "id": "r149",
+  "titulo": "Chocolate",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "284 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "imagens/importadas/r149.jpg",
+  "ingredientes": [
+   "1 banana prata congelada",
+   "200g de melão congelado",
+   "30g de whey ou leite em pó desnatado",
+   "2 col. de sopa de cacau 100% ou cacau 50%"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567962
+ },
+ {
+  "id": "r150",
+  "titulo": "Manga com Maracujá",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "274 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "imagens/importadas/r150.jpg",
+  "ingredientes": [
+   "½ manga congelada — ou 100 a 150g",
+   "1 polpa de maracujá pequeno",
+   "30g de whey ou leite em pó desnatado"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567963
+ },
+ {
+  "id": "r151",
+  "titulo": "Morango com Banana",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "258 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "imagens/importadas/r151.jpg",
+  "ingredientes": [
+   "200g de morango congelado",
+   "1 banana prata congelada",
+   "30g de whey ou leite em pó desnatado"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567964
+ },
+ {
+  "id": "r152",
+  "titulo": "Uva com Leite em Pó",
+  "tempo": "",
+  "porcoes": "1",
+  "calorias": "228 kcal",
+  "categoria": "Sorvete Minuto",
+  "fit": true,
+  "emoji": "🍨",
+  "imagem": "",
+  "ingredientes": [
+   "200g de uva congelada sem semente",
+   "30g de leite em pó desnatado — ou 15g de whey + 15g de leite em pó desnatado"
+  ],
+  "modo": [
+   "Coloque tudo no processador e bata muito bem por cerca de 5 minutos, até ficar homogêneo e aumentar de tamanho."
+  ],
+  "criadoEm": 1788134567964
+ },
+ {
+  "id": "r153",
+  "titulo": "Iogurte Caseiro",
+  "tempo": "8 h",
+  "porcoes": "10",
+  "calorias": "52 kcal",
+  "categoria": "Hack do Iogurte",
+  "fit": true,
+  "emoji": "🥛",
+  "imagem": "imagens/importadas/r153.jpg",
+  "ingredientes": [
+   "1L de leite desnatado (também pode ser integral ou semidesnatado)",
+   "1 pote de iogurte natural — ou 160g (pode ser integral ou desnatado, não faz tanta diferença na composição final)",
+   "4 col. de sopa de leite em pó desnatado — ou 40g"
+  ],
+  "modo": [
+   "Em uma panela, despeje o leite e aqueça por cerca de 4 a 5 minutos, até formar uma nata por cima ou até ferver.",
+   "Desligue o fogo e aguarde pelo menos 10 minutos. Faça o teste do dedo ou utilize um termômetro.",
+   "Com cerca de 40°C — temperatura em que é possível manter o dedo imerso por 10 segundos sem se queimar — o leite está pronto para receber o iogurte.",
+   "Misture o pote de iogurte com o leite em pó e depois junte tudo com o leite já aquecido e em temperatura agradável.",
+   "Mexa bem, tampe a panela, envolva em um pano ou toalha e leve para fermentar em ambiente fechado (forno ou micro-ondas desligado).",
+   "Deixe fermentar por pelo menos 8h — podendo ficar até 12h ou mais em dias mais quentes.",
+   "Após o tempo de fermentação, separe em porções, de preferência em potes herméticos bem vedados.",
+   "Armazene na geladeira. Essa receita rende até 10 porções de 120 a 150ml cada.",
+   "🌡️"
+  ],
+  "criadoEm": 1788134567965
+ },
+ {
+  "id": "r3",
+  "titulo": "Pão de Queijo de 2 Ingredientes",
+  "tempo": "10 min",
+  "porcoes": "4",
+  "calorias": "92 kcal",
+  "categoria": "Salgados",
+  "fit": true,
+  "emoji": "🧀",
+  "imagem": "https://raw.githubusercontent.com/thiagorochedo80/RSP-Imagens-Lanches-Salgados/main/1.jpg",
+  "ingredientes": [
+   "2 fatias de queijo muçarela (ou 40 g)",
+   "50 g de goma de tapioca",
+   "Sal a gosto"
+  ],
+  "modo": [
+   "Misture com as mãos o queijo e a tapioca até formar uma massa homogênea.",
+   "Modele no formato desejado e divida em 4 unidades.",
+   "Asse em forno pré-aquecido ou air fryer por 6 a 10 minutos a 160 °C."
+  ],
+  "criadoEm": 1785442680000
+ },
+ {
   "id": "r2",
   "titulo": "Salada Colorida com Parmesão",
   "tempo": "15 min",
