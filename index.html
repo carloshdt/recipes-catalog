@@ -146,6 +146,10 @@
   ol.steps{list-style:none;counter-reset:s;display:flex;flex-direction:column;gap:12px}
   ol.steps li{counter-increment:s;display:flex;gap:12px;font-size:14.5px;line-height:1.55}
   ol.steps li::before{content:counter(s);flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--ink);color:#FCF8F0;font-size:12.5px;font-weight:600;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif}
+  .detail-aula{padding:4px 22px 0}
+  .aula-btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px;border-radius:12px;background:var(--junk);color:#FCF8F0;font-weight:600;font-size:15px;text-decoration:none;transition:transform .12s,opacity .15s}
+  .aula-btn:hover{transform:translateY(-1px);opacity:.94}
+  .aula-hint{font-size:12px;color:var(--ink-soft);text-align:center;margin-top:8px;line-height:1.45}
   .detail-actions{display:flex;gap:10px;padding:24px 22px 22px}
   .detail-actions button{flex:1;padding:11px;border-radius:11px;font-weight:600;font-size:14px}
   .btn-edit{background:var(--card);border:1px solid var(--line);color:var(--ink)}
@@ -660,6 +664,10 @@ function openDetail(id){
       <h4>Modo de preparo</h4>
       <ol class="steps">${(r.modo||[]).map(s=>`<li>${esc(s)}</li>`).join('')||'<li>—</li>'}</ol>
     </div>
+    ${r.aula?`<div class="detail-aula">
+      <a class="aula-btn" href="${esc(r.aula)}" target="_blank" rel="noopener noreferrer">${r.aulaVideo?'▶ Ver vídeo da aula':'Abrir a aula no curso'}</a>
+      <p class="aula-hint">Abre no Receitas Sem Pensar${r.aulaVideo?' — o vídeo toca lá':''}. Precisa estar logado na sua conta.</p>
+    </div>`:''}
     <div class="detail-actions">
       <button class="btn-edit" onclick="editRecipe('${r.id}')">Editar</button>
       <button class="btn-del" onclick="delRecipe('${r.id}')">Apagar</button>
