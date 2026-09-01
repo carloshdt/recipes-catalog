@@ -157,6 +157,31 @@
   .btn-del{background:rgba(207,74,44,.1);color:var(--junk)}
   .btn-del:hover{background:rgba(207,74,44,.16)}
 
+  /* ---------- Lista de compras ---------- */
+  .cart-btn{position:absolute;top:8px;left:8px;width:32px;height:32px;border-radius:50%;background:rgba(252,248,240,.9);display:flex;align-items:center;justify-content:center;font-size:15px;line-height:1;box-shadow:0 1px 3px rgba(53,42,32,.18);transition:transform .12s}
+  .cart-btn:hover{transform:scale(1.12)}
+  .cart-btn[data-on="1"]{background:var(--caseira);color:#FCF8F0}
+  .lista-empty{text-align:center;color:var(--ink-soft);font-size:14.5px;line-height:1.6;padding:26px 8px}
+  .lista-recipes{display:flex;flex-wrap:wrap;gap:7px;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:6px}
+  .lista-chip{display:flex;align-items:center;gap:7px;font-size:12.5px;font-weight:500;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 8px 5px 12px;color:var(--ink)}
+  .lista-chip button{color:var(--ink-soft);font-size:15px;line-height:1;padding:0 2px}
+  .lista-chip button:hover{color:var(--junk)}
+  .setor{margin-top:20px}
+  .setor h4{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--ink);margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .setor-count{font-family:'Inter',sans-serif;font-size:11.5px;font-weight:400;color:var(--ink-soft)}
+  .item{display:flex;align-items:flex-start;gap:10px;padding:9px 2px;border-bottom:1px solid var(--line-soft);cursor:pointer}
+  .item:last-child{border-bottom:none}
+  .box{width:19px;height:19px;flex:none;margin-top:1px;border:1.8px solid var(--line);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;color:transparent;background:var(--card)}
+  .item[data-ok="1"] .box{background:var(--caseira);border-color:var(--caseira);color:#FCF8F0}
+  .item[data-ok="1"] .item-txt{text-decoration:line-through;color:var(--ink-soft)}
+  .item-txt{font-size:14.5px;line-height:1.4}
+  .item-qtd{font-weight:600}
+  .item-de{font-size:12px;color:var(--ink-soft);display:block;margin-top:2px}
+  .lista-actions{display:flex;gap:10px;margin-top:24px}
+  .lista-actions button{flex:1;padding:11px;border-radius:11px;font-weight:600;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+  .lista-actions button:hover{border-color:var(--ink-soft)}
+  .lista-actions .wpp{background:var(--caseira);color:#FCF8F0;border-color:transparent}
+
   .spinner{width:17px;height:17px;border:2.5px solid rgba(252,248,240,.4);border-top-color:#FCF8F0;border-radius:50%;animation:spin .7s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
   .loading-page{max-width:1080px;margin:0 auto;padding:40px 20px;text-align:center;color:var(--ink-soft);font-size:14px}
@@ -184,6 +209,7 @@
       </div>
       <div style="display:flex;gap:8px;align-items:center">
         <div class="count-badge" id="countBadge">0 receitas</div>
+        <button class="count-badge" id="listaBtn" title="Lista de compras das receitas escolhidas">🛒 Lista</button>
         <button class="count-badge" id="dlBtn" title="Baixa o receitas.json atualizado pra publicar no GitHub Pages">⬇ Baixar JSON</button>
       </div>
     </div>
@@ -227,12 +253,25 @@
     </div>
   </div>
 
+  <!-- ---------- Modal: lista de compras ---------- -->
+  <div class="overlay" id="listaOverlay">
+    <div class="sheet">
+      <div class="sheet-head">
+        <h2>🛒 Lista de compras</h2>
+        <button class="xbtn" data-close="listaOverlay"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      </div>
+      <div class="sheet-body" id="listaBody"></div>
+    </div>
+  </div>
+
   <div class="toast" id="toast"></div>
 
 <script>
 let recipes=[];
 let filters={categoria:null,fit:false,fav:false};
 let favs=new Set();      // ids favoritados, guardados neste navegador
+let cart=new Set();      // receitas escolhidas pra lista de compras
+let bought=new Set();    // itens já marcados como comprados
 let search='';
 let draft=null;         // receita em edição no modal
 let editingId=null;     // id se estiver editando existente
@@ -297,6 +336,193 @@ function toggleFav(id){
 function favFirst(list){
   return [...list].sort((a,b)=>(favs.has(b.id)?1:0)-(favs.has(a.id)?1:0));
 }
+
+/* ---------------- Lista de compras ---------------- */
+const CART_KEY='rc-carrinho', BOUGHT_KEY='rc-comprados';
+function loadCart(){
+  try{ cart=new Set(JSON.parse(localStorage.getItem(CART_KEY)||'[]')); }catch(e){ cart=new Set(); }
+  try{ bought=new Set(JSON.parse(localStorage.getItem(BOUGHT_KEY)||'[]')); }catch(e){ bought=new Set(); }
+}
+function saveCart(){
+  try{
+    localStorage.setItem(CART_KEY,JSON.stringify([...cart]));
+    localStorage.setItem(BOUGHT_KEY,JSON.stringify([...bought]));
+  }catch(e){}
+}
+function toggleCart(id){
+  if(cart.has(id)){cart.delete(id);toast('Tirada da lista');}
+  else{cart.add(id);toast('Na lista de compras 🛒');}
+  saveCart();updateCartBtn();
+  document.querySelectorAll(`.cart-btn[data-cart-id="${id}"]`).forEach(b=>{
+    b.dataset.on=cart.has(id)?'1':'';b.textContent=cart.has(id)?'✓':'🛒';
+  });
+  if(el('listaOverlay').dataset.open==='1')renderLista();
+}
+function updateCartBtn(){
+  el('listaBtn').textContent=cart.size?`🛒 Lista (${cart.size})`:'🛒 Lista';
+}
+
+/* Quebra "2 colheres de sopa de aveia" em quantidade, unidade e item. */
+// Atenção: \b não vale depois de letra acentuada em JS ("chá\b" nunca casa).
+// Por isso o fim de cada unidade é (?=\s|$|,|\.).
+const FIM='(?=\\s|$|,|\\.)';
+const U=(re,nome)=>[new RegExp('^(?:'+re+')'+FIM,'i'),nome];
+const COL='colher(?:es)?|col\\.?';
+const UNIDADES=[
+  U(`(?:${COL})\\s*(?:de\\s*)?sopa`,'col. de sopa'),
+  U(`(?:${COL})\\s*(?:de\\s*)?ch[aá]`,'col. de chá'),
+  U(`(?:${COL})\\s*(?:de\\s*)?caf[eé]`,'col. de café'),
+  U(COL,'colher'),
+  U('x[ií]caras?','xícara'),U('copos?','copo'),U('latas?','lata'),
+  U('potes?','pote'),U('pacotes?','pacote'),U('caixas?','caixa'),
+  U('gramas?|gr|g','g'),U('quilos?|kg','kg'),
+  U('ml|mls','ml'),U('litros?|lt|l','L'),
+  U('dentes?','dente'),U('fatias?','fatia'),U('folhas?','folha'),
+  U('p[eé]s?','pé'),U('ramos?|ma[çc]os?','maço'),U('pitadas?','pitada'),
+  U('unidades?|un','un'),U('sach[eê]s?','sachê'),U('fil[eé]s?','filé')
+];
+function parseIngrediente(txt){
+  let s=(txt||'').trim().replace(/\s+/g,' ');
+  const original=s;
+  // Linhas que não são ingrediente: dicas, observações, títulos.
+  if(/^(💡|⚠️|👉|obs|dica|opcional|rendimento|modo)/i.test(s))return null;
+  // Água (e gelo) não vão pra lista de compras.
+  if(/^(\d+[.,]?\d*\s*)?(ml|l|litros?|copos?|x[ií]caras?|colheres?)?\s*(de\s+)?[áa]gua\b/i.test(s)||/^gelo\b/i.test(s))return null;
+  // "1 banana — ou 50g" -> "1 banana" (a equivalência em gramas atrapalha a soma)
+  s=s.replace(/\s*[—–-]\s*ou\s+.*$/i,'').replace(/\s*\((?:ou|aprox\.?)[^)]*\)/gi,'').trim();
+  let qtd=null;
+  const fracao={'meia':.5,'meio':.5,'metade':.5,'um':1,'uma':1,'dois':2,'duas':2,'tr[eê]s':3,'quatro':4,'cinco':5,'seis':6,'dez':10,'doze':12};
+  let m=s.match(/^(\d+)\s*\/\s*(\d+)\s*/);                       // 1/2
+  if(m){qtd=+m[1]/+m[2];s=s.slice(m[0].length);}
+  if(qtd===null&&(m=s.match(/^(\d+[.,]\d+|\d+)\s*/))){qtd=parseFloat(m[1].replace(',','.'));s=s.slice(m[0].length);}
+  if(qtd===null){
+    for(const [pal,val] of Object.entries(fracao)){
+      const re=new RegExp('^'+pal+'\\s+','i');
+      if(re.test(s)){qtd=val;s=s.replace(re,'');break;}
+    }
+  }
+  let unidade='';
+  for(const [re,nome] of UNIDADES){
+    const mm=s.match(re);
+    if(mm){unidade=nome;s=s.slice(mm[0].length).trim();break;}
+  }
+  s=s.replace(/^(de|do|da|d[oa]s)\s+/i,'').trim();
+  // "2 ovos" -> item "ovos", sem unidade
+  if(!unidade&&qtd!==null)unidade='un';
+  return {qtd,unidade,item:s||original,original};
+}
+
+/* Setor do mercado, por palavra-chave no nome do item. */
+const SETORES=[
+  ['🥬 Hortifruti',['banana','maç','cenoura','alface','tomate','cebola','alho','batata','abóbor','abobor','brócolis','brocolis','couve','limão','limao','laranja','morango','abacate','abacaxi','manga','uva','mamão','mamao','pera','espinafre','salsinha','cebolinha','coentro','chuchu','beterraba','pepino','pimentão','pimentao','gengibre','coco fresco','rúcula','rucula','repolho','berinjela','abobrinha','maracujá','maracuja','melancia','kiwi','ameixa','damasco','uva passa','milho verde','vagem','quiabo','inhame','mandioca','aipim','alho-poró']],
+  ['🥩 Açougue e ovos',['frango','carne','patinho','moída','moida','peito','coxa','sobrecoxa','file','filé','bife','bacon','linguiça','linguica','costela','alcatra','músculo','musculo','peixe','tilápia','tilapia','salmão','salmao','camarão','camarao','ovo','ovos','peru']],
+  ['🧀 Laticínios e frios',['leite','queijo','requeijão','requeijao','iogurte','ricota','manteiga','margarina','creme de leite','cream cheese','mussarela','muçarela','parmesão','parmesao','presunto','nata','coalhada','cottage','whey']],
+  ['🍞 Padaria',['pão','pao','baguete','bisnaguinha','torrada','massa folhada','massa de pastel','massa fresca','rap10','wrap','tortilha']],
+  ['❄️ Congelados',['sorvete','polpa congelada','ervilha congelada','brócolis congelado','massa congelada']],
+  ['🛒 Mercearia',['aveia','farinha','açúcar','acucar','adoçante','adocante','cacau','chocolate','fermento','sal','óleo','oleo','azeite','vinagre','leite em pó','leite em po','leite condensado','milho','palmito','atum','sardinha','arroz','feijão','feijao','cuscuz','flocão','flocao','tapioca','gelatina','essência','essencia','baunilha','coco ralado','amendoim','castanha','nozes','mel','canela','orégano','oregano','tempero','caldo','extrato','molho','macarrão','macarrao','granola','pasta de amendoim','psyllium','chia','linhaça','linhaca','gergelim','fubá','fuba','polvilho','amido','maisena','café','cafe','ketchup','mostarda','maionese','shoyu','curry','páprica','paprica','cominho','noz-moscada']]
+];
+function setorDe(item){
+  const t=item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  for(const [nome,chaves] of SETORES){
+    for(const k of chaves){
+      const kk=k.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+      if(t.includes(kk))return nome;
+    }
+  }
+  return '📦 Outros';
+}
+
+/* Junta os ingredientes das receitas do carrinho, somando o que dá pra somar. */
+function montarLista(){
+  const itens=new Map();
+  for(const id of cart){
+    const r=recipes.find(x=>x.id===id); if(!r)continue;
+    for(const linha of (r.ingredientes||[])){
+      const p=parseIngrediente(linha);
+      if(!p)continue;
+      const chave=p.item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+      if(!chave)continue;
+      if(!itens.has(chave))itens.set(chave,{nome:p.item,setor:setorDe(p.item),quantidades:new Map(),receitas:new Set(),brutos:[]});
+      const it=itens.get(chave);
+      it.receitas.add(r.titulo);
+      if(p.qtd!==null)it.quantidades.set(p.unidade,(it.quantidades.get(p.unidade)||0)+p.qtd);
+      else it.brutos.push(p.original);
+    }
+  }
+  const porSetor=new Map();
+  for(const [chave,it] of itens){
+    const partes=[...it.quantidades].map(([u,q])=>{
+      const n=Math.round(q*100)/100;
+      return u==='un'?`${n}`:`${n} ${u}`;
+    });
+    it.chave=chave;
+    it.qtdTexto=partes.join(' + ');
+    if(!porSetor.has(it.setor))porSetor.set(it.setor,[]);
+    porSetor.get(it.setor).push(it);
+  }
+  const ordem=SETORES.map(s=>s[0]).concat('📦 Outros');
+  return ordem.filter(s=>porSetor.has(s)).map(s=>[s,porSetor.get(s).sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'))]);
+}
+
+function renderLista(){
+  const body=el('listaBody');
+  if(!cart.size){
+    body.innerHTML=`<div class="lista-empty">Sua lista está vazia.<br>Toque no 🛒 de uma receita — os ingredientes de todas elas entram aqui somados.</div>`;
+    return;
+  }
+  const escolhidas=[...cart].map(id=>recipes.find(r=>r.id===id)).filter(Boolean);
+  const setores=montarLista();
+  const total=setores.reduce((n,[,itens])=>n+itens.length,0);
+  body.innerHTML=`
+    <div class="lista-recipes">${escolhidas.map(r=>
+      `<span class="lista-chip">${esc(r.emoji||'🍽️')} ${esc(r.titulo)}<button data-tirar="${r.id}" title="Tirar da lista">×</button></span>`).join('')}</div>
+    <p class="hint">${total} ${total===1?'item':'itens'} de ${escolhidas.length} ${escolhidas.length===1?'receita':'receitas'}.</p>
+    ${setores.map(([setor,itens])=>`
+      <div class="setor">
+        <h4>${setor}<span class="setor-count">${itens.length}</span></h4>
+        ${itens.map(it=>`
+          <div class="item" data-item="${esc(it.chave)}" data-ok="${bought.has(it.chave)?'1':''}">
+            <span class="box">✓</span>
+            <span class="item-txt">${it.qtdTexto?`<span class="item-qtd">${esc(it.qtdTexto)}</span> · `:''}${esc(it.nome)}
+              ${it.brutos.length?`<span class="item-de">${esc(it.brutos.join(' · '))}</span>`:''}
+              ${it.receitas.size>1?`<span class="item-de">${it.receitas.size} receitas</span>`:''}
+            </span>
+          </div>`).join('')}
+      </div>`).join('')}
+    <div class="lista-actions">
+      <button class="wpp" id="copiarLista">Copiar lista</button>
+      <button id="limparLista">Limpar</button>
+    </div>`;
+}
+
+function listaComoTexto(){
+  return montarLista().map(([setor,itens])=>
+    setor+'\n'+itens.map(it=>'- '+(it.qtdTexto?it.qtdTexto+' · ':'')+it.nome).join('\n')
+  ).join('\n\n');
+}
+
+el('listaBtn').addEventListener('click',()=>{renderLista();openOverlay('listaOverlay');});
+el('listaBody').addEventListener('click',async e=>{
+  const tirar=e.target.closest('[data-tirar]');
+  if(tirar){toggleCart(tirar.dataset.tirar);renderLista();return;}
+  if(e.target.closest('#copiarLista')){
+    try{ await navigator.clipboard.writeText(listaComoTexto()); toast('Lista copiada — é só colar no WhatsApp 📋'); }
+    catch(err){ toast('Não consegui copiar aqui 😕'); }
+    return;
+  }
+  if(e.target.closest('#limparLista')){
+    cart.clear();bought.clear();saveCart();updateCartBtn();renderLista();render();
+    toast('Lista limpa');
+    return;
+  }
+  const item=e.target.closest('.item');
+  if(item){
+    const k=item.dataset.item;
+    if(bought.has(k))bought.delete(k); else bought.add(k);
+    item.dataset.ok=bought.has(k)?'1':'';
+    saveCart();
+  }
+});
 
 /* ---------------- Storage: receitas em receitas.json no repositório ---------------- */
 async function loadRecipes(){
@@ -396,6 +622,7 @@ function cardHTML(r){
       <div class="rcard-art" style="background:${grad(r.categoria)}">
         ${r.imagem?`<img src="${esc(r.imagem)}" alt="${esc(r.titulo)}" loading="lazy">`:`<span class="emoji">${r.emoji||'🍽️'}</span>`}
         <button class="fav-btn" data-fav-id="${r.id}" data-on="${favs.has(r.id)?'1':''}" aria-label="Favoritar" title="Favoritar">${favs.has(r.id)?'♥':'♡'}</button>
+        <button class="cart-btn" data-cart-id="${r.id}" data-on="${cart.has(r.id)?'1':''}" aria-label="Adicionar à lista" title="Adicionar à lista de compras">${cart.has(r.id)?'✓':'🛒'}</button>
         ${r.tempo||r.calorias?`<span class="time">${r.tempo?'⏱ '+esc(r.tempo):'🔥 '+esc(r.calorias)}</span>`:''}
       </div>
       <div class="rcard-body">
@@ -424,9 +651,9 @@ function bindRails(){
 // Captura antes do onclick do card, senão favoritar abriria a receita.
 el('content').addEventListener('click',e=>{
   const f=e.target.closest('.fav-btn');
-  if(!f)return;
-  e.stopPropagation();e.preventDefault();
-  toggleFav(f.dataset.favId);
+  if(f){e.stopPropagation();e.preventDefault();toggleFav(f.dataset.favId);return;}
+  const c=e.target.closest('.cart-btn');
+  if(c){e.stopPropagation();e.preventDefault();toggleCart(c.dataset.cartId);}
 },true);
 
 el('content').addEventListener('click',e=>{
@@ -668,6 +895,9 @@ function openDetail(id){
       <a class="aula-btn" href="${esc(r.aula)}" target="_blank" rel="noopener noreferrer">${r.aulaVideo?'▶ Ver vídeo da aula':'Abrir a aula no curso'}</a>
       <p class="aula-hint">Abre no Receitas Sem Pensar${r.aulaVideo?' — o vídeo toca lá':''}. Precisa estar logado na sua conta.</p>
     </div>`:''}
+    <div class="detail-aula" style="padding-top:12px">
+      <button class="aula-btn" style="background:${cart.has(r.id)?'var(--ink)':'var(--caseira)'}" onclick="toggleCart('${r.id}');openDetail('${r.id}')">${cart.has(r.id)?'✓ Na lista de compras':'🛒 Adicionar à lista de compras'}</button>
+    </div>
     <div class="detail-actions">
       <button class="btn-edit" onclick="editRecipe('${r.id}')">Editar</button>
       <button class="btn-del" onclick="delRecipe('${r.id}')">Apagar</button>
@@ -702,12 +932,12 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeOverlay('addOv
 /* ---------------- Boot ---------------- */
 (async()=>{
   el('content').innerHTML='<div class="loading-page">Abrindo seu caderno…</div>';
-  loadFavs();
+  loadFavs();loadCart();updateCartBtn();
   await loadRecipes();
   renderChips();
   render();
 })();
-window.openAdd=openAdd;window.openDetail=openDetail;window.editRecipe=editRecipe;window.delRecipe=delRecipe;
+window.openAdd=openAdd;window.toggleCart=toggleCart;window.openDetail=openDetail;window.editRecipe=editRecipe;window.delRecipe=delRecipe;
 </script>
 </body>
 </html>
