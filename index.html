@@ -501,6 +501,8 @@ function listaComoTexto(){
   ).join('\n\n');
 }
 
+// Ligado no boot: aqui em cima o helper el() ainda não existe.
+function bindLista(){
 el('listaBtn').addEventListener('click',()=>{renderLista();openOverlay('listaOverlay');});
 el('listaBody').addEventListener('click',async e=>{
   const tirar=e.target.closest('[data-tirar]');
@@ -523,6 +525,7 @@ el('listaBody').addEventListener('click',async e=>{
     saveCart();
   }
 });
+}
 
 /* ---------------- Storage: receitas em receitas.json no repositório ---------------- */
 async function loadRecipes(){
@@ -932,7 +935,7 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeOverlay('addOv
 /* ---------------- Boot ---------------- */
 (async()=>{
   el('content').innerHTML='<div class="loading-page">Abrindo seu caderno…</div>';
-  loadFavs();loadCart();updateCartBtn();
+  loadFavs();loadCart();updateCartBtn();bindLista();
   await loadRecipes();
   renderChips();
   render();
